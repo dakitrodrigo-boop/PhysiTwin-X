@@ -1,0 +1,5 @@
+mango_id,storage_day,previous_ripeness_stage,verified_ripeness_stage,previous_firmness,verified_firmness,previous_temperature,verified_temperature,previous_humidity,verified_humidity,previous_weight,verified_weight,previous_weight_loss,verified_weight_loss,previous_spoilage_risk,verified_spoilage_risk
+M10,13,OVERRIPE,OVERRIPE,MUSHY,VERY SOFT,30.0,30,80,80,295,295,2.22,2.22,HIGH RISK,HIGH RISK
+M10,14,SPOILED,SPOILED,MUSHY,MUSHY,29.0,29,90,90,290,290,2.22,2.22,VERY HIGH RISK,VERY HIGH RISK
+M39,10,SPOILED,OVERRIPE,VERY SOFT,VERY SOFT,29.0,29,85,85,255,255,2.22,2.22,HIGH RISK,HIGH RISK
+M48,11,MUSHY,SPOILED,MUSHY,MUSHY,28.0,28,86,86,150,150,3.7,3.7,VERY HIGH RISK,VERY HIGH RISK

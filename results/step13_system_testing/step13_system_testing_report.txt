@@ -1,0 +1,118 @@
+======================================================================
+PHYSITWIN-X STEP 13 SYSTEM TESTING REPORT
+======================================================================
+
+Testing date: 2026-11-05 15:31:17.151778
+Overall status: PASSED
+
+DATASET INFORMATION
+--------------------------------------------------
+Observations: 745
+Unique mangoes: 60
+Storage period: 1 to 14
+
+SHELF-LIFE PREDICTION
+--------------------------------------------------
+Mean prediction: 5.9371 days
+Minimum raw prediction: -0.6659 days
+Maximum prediction: 12.6131 days
+Negative raw predictions: 29
+
+RISK CLASSIFICATION
+--------------------------------------------------
+FRESH: 264
+HIGH RISK: 182
+LOW RISK: 125
+MODERATE RISK: 113
+VERY HIGH RISK: 61
+
+REPRODUCIBILITY
+--------------------------------------------------
+Shelf-life maximum difference: 0.0000004740
+Risk class reproduction: True
+Risk probability reproduction: True
+
+VALIDATION SUMMARY
+--------------------------------------------------
+Total checks: 42
+Passed: 42
+Failed: 0
+Overall status: PASSED
+
+INDIVIDUAL CHECKS
+--------------------------------------------------
+[PASS] File exists: Dynamic state dataset
+    C:\Users\USER\OneDrive\PhysiTwin-X\data\physitwin_x_dynamic_states.csv
+[PASS] File exists: Shelf-life model
+    C:\Users\USER\OneDrive\PhysiTwin-X\results\physitwin_x_xgboost_model.joblib
+[PASS] File exists: Spoilage-risk model
+    C:\Users\USER\OneDrive\PhysiTwin-X\results\physitwin_x_spoilage_risk_model.joblib
+[PASS] File exists: Integrated predictions
+    C:\Users\USER\OneDrive\PhysiTwin-X\results\step12_digital_twin\physitwin_x_integrated_predictions.csv
+[PASS] File exists: Latest mango status
+    C:\Users\USER\OneDrive\PhysiTwin-X\results\step12_digital_twin\physitwin_x_latest_mango_status.csv
+[PASS] File exists: Risk distribution
+    C:\Users\USER\OneDrive\PhysiTwin-X\results\step12_digital_twin\step12_risk_distribution.csv
+[PASS] File exists: Daily summary
+    C:\Users\USER\OneDrive\PhysiTwin-X\results\step12_digital_twin\step12_daily_digital_twin_summary.csv
+[PASS] Source dataset loaded
+    745 observations
+[PASS] Integrated predictions loaded
+    745 observations
+[PASS] Saved shelf-life model loaded
+[PASS] Saved risk model loaded
+[PASS] Expected 745 source observations
+    Actual: 745
+[PASS] Expected 745 integrated observations
+    Actual: 745
+[PASS] Expected 60 unique mangoes
+    Actual: 60
+[PASS] Integrated output contains 60 mangoes
+    Actual: 60
+[PASS] Storage days cover Day 1 to Day 14
+    Range: 1 to 14
+[PASS] No duplicate source mango/day records
+    Duplicates: 0
+[PASS] No duplicate integrated mango/day records
+    Duplicates: 0
+[PASS] All source records retained in integration
+    Source keys: 745; Integrated keys: 745
+[PASS] Shelf-life predictions contain no missing values
+[PASS] Shelf-life predictions are finite
+[PASS] Negative predictions identified and preserved
+    29 raw predictions below zero
+[PASS] Shelf-life predictions reproducible
+    Maximum absolute difference: 0.0000004740
+[PASS] All predicted risk classes are recognized
+    Observed classes: ['FRESH', 'HIGH RISK', 'LOW RISK', 'MODERATE RISK', 'VERY HIGH RISK']
+[PASS] No missing risk predictions
+[PASS] No missing risk probabilities
+[PASS] All risk probabilities are finite
+[PASS] Risk probabilities are between zero and one
+[PASS] Risk probabilities sum approximately to one
+    Maximum sum deviation: 0.0000001015
+[PASS] Maximum class probability is correctly recorded
+[PASS] Risk classifications reproducible
+[PASS] Risk probabilities reproducible
+[PASS] Latest status has one record per mango
+    Rows: 60; duplicate mango IDs: 0
+[PASS] Latest status contains the correct mango IDs
+[PASS] Latest status matches final recorded day
+[PASS] Latest shelf-life predictions match integration
+[PASS] Latest risk classifications match integration
+[PASS] Daily summary is not empty
+    Rows: 14
+[PASS] Daily summary has unique storage days
+[PASS] Daily summary covers the recorded period
+[PASS] Risk distribution file is available
+[PASS] Recorded risk-label agreement calculated
+    738/745 (99.06%)
+
+SCIENTIFIC LIMITATIONS
+--------------------------------------------------
+1. Reproducibility confirms that saved models produce the same stored predictions.
+2. Reproducibility does not establish external generalization or independent predictive accuracy.
+3. Recorded risk-label agreement is descriptive and is not independent validation.
+4. Negative raw shelf-life predictions are retained for research transparency.
+5. Maximum predicted class probability is not the probability that a mango is spoiled.
+6. This test does not establish live sensor connectivity or automatic real-time updating.

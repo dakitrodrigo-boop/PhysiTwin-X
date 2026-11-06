@@ -1,0 +1,34 @@
+=================================================================
+PHYSITWIN-X STEP 3 SUMMARY
+=================================================================
+Input file: data\physitwin_x_verified_cleaned_v2.csv
+Output file: data\physitwin_x_feature_engineered.csv
+Total observations: 744
+Total mangoes: 60
+Total columns: 21
+
+ENGINEERED FEATURES
+days_since_first_observation: 0 missing values
+observation_gap_days: 60 missing values
+weight_change_g: 60 missing values
+weight_loss_change_pct: 60 missing values
+weight_loss_rate_pct_per_day: 60 missing values
+temperature_change_c: 60 missing values
+humidity_change_pct: 60 missing values
+
+FEATURE DEFINITIONS
+1. Days since first observation: elapsed storage days from each mango's first recorded observation.
+2. Observation gap: days between consecutive observations.
+3. Weight change: current weight minus previous recorded weight.
+4. Weight-loss change: current percentage minus previous percentage.
+5. Weight-loss rate: weight-loss percentage change divided by observation gap.
+6. Temperature change: current temperature minus previous temperature.
+7. Humidity change: current relative humidity minus previous humidity.
+
+VALIDATION
+Original row count: 744
+Final row count: 744
+Row count preserved: True
+Duplicate mango/day records: 0
+
+STEP 3 COMPLETED.

@@ -1,0 +1,12 @@
+PHYSITWIN-X STEP 5B REVIEW FLAG INSPECTION
+=======================================================
+Total observations: 745
+Total mangoes: 60
+Review records: 0
+Non-review records: 745
+Verified spoiled observations: 62
+
+Input: C:\Users\USER\OneDrive\PhysiTwin-X\data\physitwin_x_endpoint_verified.csv
+Output: C:\Users\USER\OneDrive\PhysiTwin-X\results\step5B_review_flag_inspection.csv
+
+Original input dataset preserved.

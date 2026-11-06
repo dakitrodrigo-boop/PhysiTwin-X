@@ -1,0 +1,44 @@
+=================================================================
+PHYSITWIN-X STEP 9B DYNAMIC STATE SUMMARY
+=================================================================
+Total observations: 745
+Unique mangoes: 60
+Storage period: Day 1 to Day 14
+
+DYNAMIC STATE VARIABLES
+temperature_change_c
+humidity_change_pct
+weight_change_g
+weight_loss_change_pct
+firmness_state_change
+ripeness_state_change
+weight_change_g_per_day
+weight_loss_change_pct_per_day
+temperature_change_c_per_day
+humidity_change_pct_per_day
+firmness_state_change_per_day
+ripeness_state_change_per_day
+
+STATE SCORE DEFINITIONS
+Firmness: 0 = VERY FIRM; 7 = MUSHY
+Ripeness: 0 = UNRIPE; 6 = SPOILED
+These are operational ordinal category codes,
+not direct physical measurements.
+
+VALIDATION
+Original row count preserved: True
+Duplicate mango-day records: 0
+Negative elapsed intervals: 0
+Missing state scores: 0
+Validation passed: True
+
+IMPORTANT NOTES
+Each change uses the current and previous observation
+for the same mango only.
+First observations are treated as individual baselines.
+Original peel-color descriptions are preserved.
+No future endpoint or spoilage-risk label is used
+to calculate the dynamic state changes.
+
+Output dataset: C:\Users\USER\OneDrive\PhysiTwin-X\data\physitwin_x_dynamic_states.csv
+=================================================================

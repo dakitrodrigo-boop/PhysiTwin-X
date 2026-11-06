@@ -1,0 +1,43 @@
+check,status,details
+File exists: Dynamic state dataset,PASS,C:\Users\USER\OneDrive\PhysiTwin-X\data\physitwin_x_dynamic_states.csv
+File exists: Shelf-life model,PASS,C:\Users\USER\OneDrive\PhysiTwin-X\results\physitwin_x_xgboost_model.joblib
+File exists: Spoilage-risk model,PASS,C:\Users\USER\OneDrive\PhysiTwin-X\results\physitwin_x_spoilage_risk_model.joblib
+File exists: Integrated predictions,PASS,C:\Users\USER\OneDrive\PhysiTwin-X\results\step12_digital_twin\physitwin_x_integrated_predictions.csv
+File exists: Latest mango status,PASS,C:\Users\USER\OneDrive\PhysiTwin-X\results\step12_digital_twin\physitwin_x_latest_mango_status.csv
+File exists: Risk distribution,PASS,C:\Users\USER\OneDrive\PhysiTwin-X\results\step12_digital_twin\step12_risk_distribution.csv
+File exists: Daily summary,PASS,C:\Users\USER\OneDrive\PhysiTwin-X\results\step12_digital_twin\step12_daily_digital_twin_summary.csv
+Source dataset loaded,PASS,745 observations
+Integrated predictions loaded,PASS,745 observations
+Saved shelf-life model loaded,PASS,
+Saved risk model loaded,PASS,
+Expected 745 source observations,PASS,Actual: 745
+Expected 745 integrated observations,PASS,Actual: 745
+Expected 60 unique mangoes,PASS,Actual: 60
+Integrated output contains 60 mangoes,PASS,Actual: 60
+Storage days cover Day 1 to Day 14,PASS,Range: 1 to 14
+No duplicate source mango/day records,PASS,Duplicates: 0
+No duplicate integrated mango/day records,PASS,Duplicates: 0
+All source records retained in integration,PASS,Source keys: 745; Integrated keys: 745
+Shelf-life predictions contain no missing values,PASS,
+Shelf-life predictions are finite,PASS,
+Negative predictions identified and preserved,PASS,29 raw predictions below zero
+Shelf-life predictions reproducible,PASS,Maximum absolute difference: 0.0000004740
+All predicted risk classes are recognized,PASS,"Observed classes: ['FRESH', 'HIGH RISK', 'LOW RISK', 'MODERATE RISK', 'VERY HIGH RISK']"
+No missing risk predictions,PASS,
+No missing risk probabilities,PASS,
+All risk probabilities are finite,PASS,
+Risk probabilities are between zero and one,PASS,
+Risk probabilities sum approximately to one,PASS,Maximum sum deviation: 0.0000001015
+Maximum class probability is correctly recorded,PASS,
+Risk classifications reproducible,PASS,
+Risk probabilities reproducible,PASS,
+Latest status has one record per mango,PASS,Rows: 60; duplicate mango IDs: 0
+Latest status contains the correct mango IDs,PASS,
+Latest status matches final recorded day,PASS,
+Latest shelf-life predictions match integration,PASS,
+Latest risk classifications match integration,PASS,
+Daily summary is not empty,PASS,Rows: 14
+Daily summary has unique storage days,PASS,
+Daily summary covers the recorded period,PASS,
+Risk distribution file is available,PASS,
+Recorded risk-label agreement calculated,PASS,738/745 (99.06%)

@@ -1,0 +1,49 @@
+PHYSITWIN-X STEP 12
+DIGITAL TWIN INTEGRATION REPORT
+======================================================================
+
+DATASET INFORMATION
+Observations: 745
+Mangoes: 60
+Storage days: 1 to 14
+
+INTEGRATED COMPONENTS
+- Step 7 shelf-life regression model
+- Step 9 dynamic-state dataset
+- Step 10C spoilage-risk classifier
+- Step 11 SHAP explainability reference
+
+SHELF-LIFE PREDICTION SUMMARY
+Mean: 5.9371 days
+Minimum: -0.6659 days
+Maximum: 12.6131 days
+
+RISK CLASS DISTRIBUTION
+predicted_risk  observations  percentage
+         FRESH           264   35.436242
+      LOW RISK           125   16.778523
+ MODERATE RISK           113   15.167785
+     HIGH RISK           182   24.429530
+VERY HIGH RISK            61    8.187919
+
+VALIDATION RESULTS
+PASS: Integrated dataset preserves observation count
+PASS: All mango identifiers preserved
+PASS: No duplicate mango/day records
+PASS: Shelf-life predictions contain no missing values
+PASS: Risk predictions contain no missing values
+PASS: All predicted classes are valid
+PASS: Risk probabilities are finite
+PASS: Risk probabilities sum approximately to one
+PASS: Integrated CSV exists
+PASS: Latest mango status CSV exists
+
+TOTAL PASSED: 10
+TOTAL FAILED: 0
+
+INTERPRETATION LIMITATIONS
+The integrated predictions are generated from the existing trained models and recorded observations.
+This integration run is not an independent model performance evaluation.
+The recorded spoilage-risk labels may depend on firmness and peel-color characteristics used as predictors.
+SHAP values explain model behavior and do not establish causation.
+The existing dataset does not establish live sensor connectivity or automatic real-time updates.

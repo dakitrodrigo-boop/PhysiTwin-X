@@ -1,0 +1,104 @@
+transformed_feature_index,transformed_feature
+0,numeric__storage_day
+1,numeric__temperature_c
+2,numeric__relative_humidity_pct
+3,numeric__weight_g
+4,numeric__weight_loss_pct
+5,numeric__days_since_first_observation
+6,numeric__observation_gap_days
+7,numeric__weight_change_g
+8,numeric__weight_loss_change_pct
+9,numeric__weight_loss_rate_pct_per_day
+10,numeric__temperature_change_c
+11,numeric__humidity_change_pct
+12,categorical__peel_color_BLACK AND BROWN SPOTTED
+13,categorical__peel_color_BLACK AND BROWN-SPOTTED
+14,categorical__peel_color_BLACK SPOTTED WITH BROWN SPOT
+15,categorical__peel_color_BLACK-SPOTTED
+16,categorical__peel_color_BLACK-SPOTTED WITH BROWN SPOT
+17,categorical__peel_color_BROWN-SPOTTED
+18,categorical__peel_color_FULLY BLACK SPOTTED
+19,categorical__peel_color_FULLY BLACK-SPOTTED
+20,categorical__peel_color_FULLY BROWN-SPOTTED
+21,categorical__peel_color_GOLDEN
+22,categorical__peel_color_GOLDEN YELLOW
+23,categorical__peel_color_GOLDEN YELLOW WITH BLACK SPECKLED
+24,categorical__peel_color_GOLDEN YELLOW WITH BLACK SPOT
+25,categorical__peel_color_GOLDEN YELLOW WITH BROWN SPECKLED
+26,categorical__peel_color_GOLDEN YELLOW WITH BROWN SPOT
+27,categorical__peel_color_GOLDEN YELLOW WITH DARK SPOT
+28,categorical__peel_color_GOLDEN YELLOW WITH FORMINGBR OWN SPOT
+29,categorical__peel_color_GOLDEN YELLOW WITH NOT FULLY BROWN SPOT
+30,categorical__peel_color_GOLDEN YELLOW WITH SMALL BLACK SPOT
+31,categorical__peel_color_GOLDEN-YELLOW
+32,categorical__peel_color_GREEN
+33,categorical__peel_color_GREEN YELLOW
+34,categorical__peel_color_GREEN-YELLOW
+35,categorical__peel_color_GREEN-YELLOW WITH BROWN SPOT
+36,categorical__peel_color_LIGHT GREEN
+37,categorical__peel_color_LIGHT GREEN WITH BROWN
+38,categorical__peel_color_NOT FULLY BLACK SPOT
+39,categorical__peel_color_NOT FULLY BROWN SPOT
+40,categorical__peel_color_YELLOW
+41,categorical__peel_color_YELLOW FORMING BLACK SPOT
+42,categorical__peel_color_YELLOW ORANGE
+43,categorical__peel_color_YELLOW ORANGE WITH BLACK SPECKLED
+44,categorical__peel_color_YELLOW ORANGE WITH BLACK SPOT
+45,categorical__peel_color_YELLOW ORANGE WITH BROWN SPOT
+46,categorical__peel_color_YELLOW ORANGE WITH DARK SPOT
+47,categorical__peel_color_YELLOW ORANGE WITH FORMING BLACK SPECKLED
+48,categorical__peel_color_YELLOW ORANGE WITH FORMING BLACK SPOT
+49,categorical__peel_color_YELLOW ORANGE WITH FORMING FULL BLACK SPOT
+50,categorical__peel_color_YELLOW ORANGE WITH FORMING FULL BROWN
+51,categorical__peel_color_YELLOW ORANGE WITH FORMING FULL BROWN SPOT
+52,categorical__peel_color_YELLOW ORANGE WITH SMALL BLACK SPECKLED
+53,categorical__peel_color_YELLOW ORANGE WITH SMALL BLACK SPOT
+54,categorical__peel_color_YELLOW ORANGE WITH SMALL DARK SPOT
+55,categorical__peel_color_YELLOW ORANGE-BLACK SPECKLED
+56,categorical__peel_color_YELLOW WITH BLACK BLACK SPOT
+57,categorical__peel_color_YELLOW WITH BLACK SPECKLED
+58,categorical__peel_color_YELLOW WITH BLACK SPOT
+59,categorical__peel_color_YELLOW WITH BROWN AND DARK SPOT
+60,categorical__peel_color_YELLOW WITH BROWN SPOT
+61,categorical__peel_color_YELLOW WITH DARK AND BROWN SPOT
+62,categorical__peel_color_YELLOW WITH DARK SPOT
+63,categorical__peel_color_YELLOW WITH FORMING FULL BLACK SPOT
+64,categorical__peel_color_YELLOW WITH NOT FULLY BROWN SPOT AND
+65,categorical__peel_color_YELLOW WITH NOT FULLY BROWN SPOT AND DARK SPOT
+66,categorical__peel_color_YELLOW WITH SMALL BLACK SPECKLED
+67,categorical__peel_color_YELLOW WITH SMALL SPOT
+68,categorical__peel_color_YELLOW-ORAN GE BROWN SPECKLED
+69,categorical__peel_color_YELLOW-ORAN GE WITH BROW
+70,categorical__peel_color_YELLOW-ORAN GE WITH FORMING FULL BROWN SPOT
+71,categorical__peel_color_YELLOW-ORAN GE-BROWN SPECKLED
+72,categorical__peel_color_YELLOW-ORANG E
+73,categorical__peel_color_YELLOW-ORANG E NOT FULLY DARK SPOT
+74,categorical__peel_color_YELLOW-ORANG E WITH BLACK SPECKLED
+75,categorical__peel_color_YELLOW-ORANG E WITH FORMING BLACK SPOT
+76,categorical__peel_color_YELLOW-ORANG E WITH FORMING FULL BLACK SPOT
+77,categorical__peel_color_YELLOW-ORANG E WITH FORMING FULL BROWN SPOT
+78,categorical__peel_color_YELLOW-ORANG E-BROWN SPECKLED
+79,categorical__peel_color_YELLOW-ORANGE
+80,categorical__peel_color_YELLOW-ORANGE WITH BLACK SPECKLED
+81,categorical__peel_color_YELLOW-ORANGE WITH BLACK SPOT
+82,categorical__peel_color_YELLOW-ORANGE WITH BROWN AND BLACK SPECKLED
+83,categorical__peel_color_YELLOW-ORANGE WITH BROWN SPECKLED
+84,categorical__peel_color_YELLOW-ORANGE WITH BROWN SPOT
+85,categorical__peel_color_YELLOW-ORANGE WITH DARK SPOT
+86,categorical__peel_color_YELLOW-ORANGE WITH FORMING BLACK SPOT
+87,categorical__peel_color_YELLOW-ORANGE WITH FORMING FULL BLACK SPECKLED
+88,categorical__peel_color_YELLOW-ORANGE WITH FORMING FULL BLACK SPOT
+89,categorical__peel_color_YELLOW-ORANGE WITH FORMING FULL BROWN SPOT
+90,categorical__peel_color_YELLOW-ORANGE WITH FORMINGBLACK SPECKLED
+91,categorical__peel_color_YELLOW-ORANGE WITH SMALL BLACK SPECKLED
+92,categorical__peel_color_YELLOW-ORANGE WITH SMALL BLACK SPOT
+93,categorical__peel_color_YELLOW-ORANGE-BROWN SPECKLED
+94,categorical__peel_color_YELLOW-ORANGE-BROWN SPOT
+95,categorical__firmness_FIRM
+96,categorical__firmness_MEDIUM FIRM
+97,categorical__firmness_MODERATELY FIRM
+98,categorical__firmness_MUSHY
+99,categorical__firmness_SLIGHTLY FIRM
+100,categorical__firmness_SOFT
+101,categorical__firmness_VERY FIRM
+102,categorical__firmness_VERY SOFT

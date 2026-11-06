@@ -1,0 +1,23 @@
+MODEL: WITHOUT_FIRMNESS_AND_PEEL
+
+Predictors: ['storage_day', 'temperature_c', 'relative_humidity_pct', 'weight_g', 'weight_loss_pct', 'days_since_first_observation', 'observation_gap_days', 'weight_change_g', 'weight_loss_change_pct', 'weight_loss_rate_pct_per_day', 'temperature_change_c', 'humidity_change_pct']
+
+                precision    recall  f1-score   support
+
+         FRESH       0.94      0.94      0.94        52
+     HIGH RISK       0.75      0.77      0.76        31
+      LOW RISK       0.71      0.65      0.68        26
+ MODERATE RISK       0.60      0.65      0.62        23
+VERY HIGH RISK       0.60      0.55      0.57        11
+
+      accuracy                           0.78       143
+     macro avg       0.72      0.71      0.72       143
+  weighted avg       0.78      0.78      0.78       143
+
+Confusion Matrix:
+                FRESH  HIGH RISK  LOW RISK  MODERATE RISK  VERY HIGH RISK
+FRESH              49          0         3              0               0
+HIGH RISK           0         24         0              4               3
+LOW RISK            3          0        17              6               0
+MODERATE RISK       0          3         4             15               1
+VERY HIGH RISK      0          5         0              0               6

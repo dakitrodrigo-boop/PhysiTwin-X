@@ -1,0 +1,516 @@
+risk_class,feature,mean_absolute_shap
+FRESH,categorical__firmness_FIRM,2.466596
+FRESH,numeric__storage_day,1.270972
+FRESH,categorical__peel_color_LIGHT GREEN,0.5811755
+FRESH,categorical__peel_color_GREEN,0.41371393
+FRESH,numeric__temperature_c,0.22485176
+FRESH,numeric__days_since_first_observation,0.19453375
+FRESH,numeric__weight_loss_change_pct,0.14737003
+FRESH,categorical__firmness_VERY FIRM,0.09609629
+FRESH,numeric__weight_g,0.08231217
+FRESH,numeric__temperature_change_c,0.02470786
+FRESH,categorical__peel_color_YELLOW,0.014168016
+FRESH,numeric__weight_loss_rate_pct_per_day,0.013582355
+FRESH,numeric__relative_humidity_pct,0.0104320245
+FRESH,numeric__weight_loss_pct,0.007434387
+FRESH,numeric__humidity_change_pct,0.004256449
+FRESH,categorical__firmness_MEDIUM FIRM,0.002928138
+FRESH,categorical__firmness_SLIGHTLY FIRM,0.0011032049
+FRESH,numeric__observation_gap_days,0.0
+FRESH,numeric__weight_change_g,0.0
+FRESH,categorical__peel_color_BLACK AND BROWN SPOTTED,0.0
+FRESH,categorical__peel_color_BLACK AND BROWN-SPOTTED,0.0
+FRESH,categorical__peel_color_BLACK SPOTTED WITH BROWN SPOT,0.0
+FRESH,categorical__peel_color_BLACK-SPOTTED,0.0
+FRESH,categorical__peel_color_BLACK-SPOTTED WITH BROWN SPOT,0.0
+FRESH,categorical__peel_color_BROWN-SPOTTED,0.0
+FRESH,categorical__peel_color_FULLY BLACK SPOTTED,0.0
+FRESH,categorical__peel_color_FULLY BLACK-SPOTTED,0.0
+FRESH,categorical__peel_color_FULLY BROWN-SPOTTED,0.0
+FRESH,categorical__peel_color_GOLDEN,0.0
+FRESH,categorical__peel_color_GOLDEN YELLOW,0.0
+FRESH,categorical__peel_color_GOLDEN YELLOW WITH BLACK SPECKLED,0.0
+FRESH,categorical__peel_color_GOLDEN YELLOW WITH BLACK SPOT,0.0
+FRESH,categorical__peel_color_GOLDEN YELLOW WITH BROWN SPECKLED,0.0
+FRESH,categorical__peel_color_GOLDEN YELLOW WITH BROWN SPOT,0.0
+FRESH,categorical__peel_color_GOLDEN YELLOW WITH DARK SPOT,0.0
+FRESH,categorical__peel_color_GOLDEN YELLOW WITH FORMINGBR OWN SPOT,0.0
+FRESH,categorical__peel_color_GOLDEN YELLOW WITH NOT FULLY BROWN SPOT,0.0
+FRESH,categorical__peel_color_GOLDEN YELLOW WITH SMALL BLACK SPOT,0.0
+FRESH,categorical__peel_color_GOLDEN-YELLOW,0.0
+FRESH,categorical__peel_color_GREEN YELLOW,0.0
+FRESH,categorical__peel_color_GREEN-YELLOW,0.0
+FRESH,categorical__peel_color_GREEN-YELLOW WITH BROWN SPOT,0.0
+FRESH,categorical__peel_color_LIGHT GREEN WITH BROWN,0.0
+FRESH,categorical__peel_color_NOT FULLY BLACK SPOT,0.0
+FRESH,categorical__peel_color_NOT FULLY BROWN SPOT,0.0
+FRESH,categorical__peel_color_YELLOW FORMING BLACK SPOT,0.0
+FRESH,categorical__peel_color_YELLOW ORANGE,0.0
+FRESH,categorical__peel_color_YELLOW ORANGE WITH BLACK SPECKLED,0.0
+FRESH,categorical__peel_color_YELLOW ORANGE WITH BLACK SPOT,0.0
+FRESH,categorical__peel_color_YELLOW ORANGE WITH BROWN SPOT,0.0
+FRESH,categorical__peel_color_YELLOW ORANGE WITH DARK SPOT,0.0
+FRESH,categorical__peel_color_YELLOW ORANGE WITH FORMING BLACK SPECKLED,0.0
+FRESH,categorical__peel_color_YELLOW ORANGE WITH FORMING BLACK SPOT,0.0
+FRESH,categorical__peel_color_YELLOW ORANGE WITH FORMING FULL BLACK SPOT,0.0
+FRESH,categorical__peel_color_YELLOW ORANGE WITH FORMING FULL BROWN,0.0
+FRESH,categorical__peel_color_YELLOW ORANGE WITH FORMING FULL BROWN SPOT,0.0
+FRESH,categorical__peel_color_YELLOW ORANGE WITH SMALL BLACK SPECKLED,0.0
+FRESH,categorical__peel_color_YELLOW ORANGE WITH SMALL BLACK SPOT,0.0
+FRESH,categorical__peel_color_YELLOW ORANGE WITH SMALL DARK SPOT,0.0
+FRESH,categorical__peel_color_YELLOW ORANGE-BLACK SPECKLED,0.0
+FRESH,categorical__peel_color_YELLOW WITH BLACK BLACK SPOT,0.0
+FRESH,categorical__peel_color_YELLOW WITH BLACK SPECKLED,0.0
+FRESH,categorical__peel_color_YELLOW WITH BLACK SPOT,0.0
+FRESH,categorical__peel_color_YELLOW WITH BROWN AND DARK SPOT,0.0
+FRESH,categorical__peel_color_YELLOW WITH BROWN SPOT,0.0
+FRESH,categorical__peel_color_YELLOW WITH DARK AND BROWN SPOT,0.0
+FRESH,categorical__peel_color_YELLOW WITH DARK SPOT,0.0
+FRESH,categorical__peel_color_YELLOW WITH FORMING FULL BLACK SPOT,0.0
+FRESH,categorical__peel_color_YELLOW WITH NOT FULLY BROWN SPOT AND,0.0
+FRESH,categorical__peel_color_YELLOW WITH NOT FULLY BROWN SPOT AND DARK SPOT,0.0
+FRESH,categorical__peel_color_YELLOW WITH SMALL BLACK SPECKLED,0.0
+FRESH,categorical__peel_color_YELLOW WITH SMALL SPOT,0.0
+FRESH,categorical__peel_color_YELLOW-ORAN GE BROWN SPECKLED,0.0
+FRESH,categorical__peel_color_YELLOW-ORAN GE WITH BROW,0.0
+FRESH,categorical__peel_color_YELLOW-ORAN GE WITH FORMING FULL BROWN SPOT,0.0
+FRESH,categorical__peel_color_YELLOW-ORAN GE-BROWN SPECKLED,0.0
+FRESH,categorical__peel_color_YELLOW-ORANG E,0.0
+FRESH,categorical__peel_color_YELLOW-ORANG E NOT FULLY DARK SPOT,0.0
+FRESH,categorical__peel_color_YELLOW-ORANG E WITH BLACK SPECKLED,0.0
+FRESH,categorical__peel_color_YELLOW-ORANG E WITH FORMING BLACK SPOT,0.0
+FRESH,categorical__peel_color_YELLOW-ORANG E WITH FORMING FULL BLACK SPOT,0.0
+FRESH,categorical__peel_color_YELLOW-ORANG E WITH FORMING FULL BROWN SPOT,0.0
+FRESH,categorical__peel_color_YELLOW-ORANG E-BROWN SPECKLED,0.0
+FRESH,categorical__peel_color_YELLOW-ORANGE,0.0
+FRESH,categorical__peel_color_YELLOW-ORANGE WITH BLACK SPECKLED,0.0
+FRESH,categorical__peel_color_YELLOW-ORANGE WITH BLACK SPOT,0.0
+FRESH,categorical__peel_color_YELLOW-ORANGE WITH BROWN AND BLACK SPECKLED,0.0
+FRESH,categorical__peel_color_YELLOW-ORANGE WITH BROWN SPECKLED,0.0
+FRESH,categorical__peel_color_YELLOW-ORANGE WITH BROWN SPOT,0.0
+FRESH,categorical__peel_color_YELLOW-ORANGE WITH DARK SPOT,0.0
+FRESH,categorical__peel_color_YELLOW-ORANGE WITH FORMING BLACK SPOT,0.0
+FRESH,categorical__peel_color_YELLOW-ORANGE WITH FORMING FULL BLACK SPECKLED,0.0
+FRESH,categorical__peel_color_YELLOW-ORANGE WITH FORMING FULL BLACK SPOT,0.0
+FRESH,categorical__peel_color_YELLOW-ORANGE WITH FORMING FULL BROWN SPOT,0.0
+FRESH,categorical__peel_color_YELLOW-ORANGE WITH FORMINGBLACK SPECKLED,0.0
+FRESH,categorical__peel_color_YELLOW-ORANGE WITH SMALL BLACK SPECKLED,0.0
+FRESH,categorical__peel_color_YELLOW-ORANGE WITH SMALL BLACK SPOT,0.0
+FRESH,categorical__peel_color_YELLOW-ORANGE-BROWN SPECKLED,0.0
+FRESH,categorical__peel_color_YELLOW-ORANGE-BROWN SPOT,0.0
+FRESH,categorical__firmness_MODERATELY FIRM,0.0
+FRESH,categorical__firmness_MUSHY,0.0
+FRESH,categorical__firmness_SOFT,0.0
+FRESH,categorical__firmness_VERY SOFT,0.0
+HIGH RISK,categorical__firmness_VERY SOFT,2.2163858
+HIGH RISK,numeric__storage_day,0.727516
+HIGH RISK,numeric__weight_g,0.68843675
+HIGH RISK,numeric__humidity_change_pct,0.42285043
+HIGH RISK,numeric__relative_humidity_pct,0.2645814
+HIGH RISK,numeric__weight_loss_change_pct,0.15586752
+HIGH RISK,categorical__peel_color_YELLOW-ORANGE WITH BROWN AND BLACK SPECKLED,0.15338586
+HIGH RISK,numeric__weight_change_g,0.13619363
+HIGH RISK,categorical__firmness_MEDIUM FIRM,0.104687944
+HIGH RISK,numeric__days_since_first_observation,0.10289172
+HIGH RISK,numeric__temperature_c,0.07059636
+HIGH RISK,categorical__peel_color_YELLOW ORANGE,0.06919661
+HIGH RISK,numeric__temperature_change_c,0.066874355
+HIGH RISK,categorical__firmness_MUSHY,0.050279204
+HIGH RISK,categorical__peel_color_GOLDEN YELLOW,0.043026045
+HIGH RISK,numeric__weight_loss_rate_pct_per_day,0.030452572
+HIGH RISK,categorical__firmness_SOFT,0.016462175
+HIGH RISK,categorical__peel_color_FULLY BLACK-SPOTTED,0.012116745
+HIGH RISK,numeric__weight_loss_pct,0.008775779
+HIGH RISK,numeric__observation_gap_days,0.0
+HIGH RISK,categorical__peel_color_BLACK AND BROWN SPOTTED,0.0
+HIGH RISK,categorical__peel_color_BLACK AND BROWN-SPOTTED,0.0
+HIGH RISK,categorical__peel_color_BLACK SPOTTED WITH BROWN SPOT,0.0
+HIGH RISK,categorical__peel_color_BLACK-SPOTTED,0.0
+HIGH RISK,categorical__peel_color_BLACK-SPOTTED WITH BROWN SPOT,0.0
+HIGH RISK,categorical__peel_color_BROWN-SPOTTED,0.0
+HIGH RISK,categorical__peel_color_FULLY BLACK SPOTTED,0.0
+HIGH RISK,categorical__peel_color_FULLY BROWN-SPOTTED,0.0
+HIGH RISK,categorical__peel_color_GOLDEN,0.0
+HIGH RISK,categorical__peel_color_GOLDEN YELLOW WITH BLACK SPECKLED,0.0
+HIGH RISK,categorical__peel_color_GOLDEN YELLOW WITH BLACK SPOT,0.0
+HIGH RISK,categorical__peel_color_GOLDEN YELLOW WITH BROWN SPECKLED,0.0
+HIGH RISK,categorical__peel_color_GOLDEN YELLOW WITH BROWN SPOT,0.0
+HIGH RISK,categorical__peel_color_GOLDEN YELLOW WITH DARK SPOT,0.0
+HIGH RISK,categorical__peel_color_GOLDEN YELLOW WITH FORMINGBR OWN SPOT,0.0
+HIGH RISK,categorical__peel_color_GOLDEN YELLOW WITH NOT FULLY BROWN SPOT,0.0
+HIGH RISK,categorical__peel_color_GOLDEN YELLOW WITH SMALL BLACK SPOT,0.0
+HIGH RISK,categorical__peel_color_GOLDEN-YELLOW,0.0
+HIGH RISK,categorical__peel_color_GREEN,0.0
+HIGH RISK,categorical__peel_color_GREEN YELLOW,0.0
+HIGH RISK,categorical__peel_color_GREEN-YELLOW,0.0
+HIGH RISK,categorical__peel_color_GREEN-YELLOW WITH BROWN SPOT,0.0
+HIGH RISK,categorical__peel_color_LIGHT GREEN,0.0
+HIGH RISK,categorical__peel_color_LIGHT GREEN WITH BROWN,0.0
+HIGH RISK,categorical__peel_color_NOT FULLY BLACK SPOT,0.0
+HIGH RISK,categorical__peel_color_NOT FULLY BROWN SPOT,0.0
+HIGH RISK,categorical__peel_color_YELLOW,0.0
+HIGH RISK,categorical__peel_color_YELLOW FORMING BLACK SPOT,0.0
+HIGH RISK,categorical__peel_color_YELLOW ORANGE WITH BLACK SPECKLED,0.0
+HIGH RISK,categorical__peel_color_YELLOW ORANGE WITH BLACK SPOT,0.0
+HIGH RISK,categorical__peel_color_YELLOW ORANGE WITH BROWN SPOT,0.0
+HIGH RISK,categorical__peel_color_YELLOW ORANGE WITH DARK SPOT,0.0
+HIGH RISK,categorical__peel_color_YELLOW ORANGE WITH FORMING BLACK SPECKLED,0.0
+HIGH RISK,categorical__peel_color_YELLOW ORANGE WITH FORMING BLACK SPOT,0.0
+HIGH RISK,categorical__peel_color_YELLOW ORANGE WITH FORMING FULL BLACK SPOT,0.0
+HIGH RISK,categorical__peel_color_YELLOW ORANGE WITH FORMING FULL BROWN,0.0
+HIGH RISK,categorical__peel_color_YELLOW ORANGE WITH FORMING FULL BROWN SPOT,0.0
+HIGH RISK,categorical__peel_color_YELLOW ORANGE WITH SMALL BLACK SPECKLED,0.0
+HIGH RISK,categorical__peel_color_YELLOW ORANGE WITH SMALL BLACK SPOT,0.0
+HIGH RISK,categorical__peel_color_YELLOW ORANGE WITH SMALL DARK SPOT,0.0
+HIGH RISK,categorical__peel_color_YELLOW ORANGE-BLACK SPECKLED,0.0
+HIGH RISK,categorical__peel_color_YELLOW WITH BLACK BLACK SPOT,0.0
+HIGH RISK,categorical__peel_color_YELLOW WITH BLACK SPECKLED,0.0
+HIGH RISK,categorical__peel_color_YELLOW WITH BLACK SPOT,0.0
+HIGH RISK,categorical__peel_color_YELLOW WITH BROWN AND DARK SPOT,0.0
+HIGH RISK,categorical__peel_color_YELLOW WITH BROWN SPOT,0.0
+HIGH RISK,categorical__peel_color_YELLOW WITH DARK AND BROWN SPOT,0.0
+HIGH RISK,categorical__peel_color_YELLOW WITH DARK SPOT,0.0
+HIGH RISK,categorical__peel_color_YELLOW WITH FORMING FULL BLACK SPOT,0.0
+HIGH RISK,categorical__peel_color_YELLOW WITH NOT FULLY BROWN SPOT AND,0.0
+HIGH RISK,categorical__peel_color_YELLOW WITH NOT FULLY BROWN SPOT AND DARK SPOT,0.0
+HIGH RISK,categorical__peel_color_YELLOW WITH SMALL BLACK SPECKLED,0.0
+HIGH RISK,categorical__peel_color_YELLOW WITH SMALL SPOT,0.0
+HIGH RISK,categorical__peel_color_YELLOW-ORAN GE BROWN SPECKLED,0.0
+HIGH RISK,categorical__peel_color_YELLOW-ORAN GE WITH BROW,0.0
+HIGH RISK,categorical__peel_color_YELLOW-ORAN GE WITH FORMING FULL BROWN SPOT,0.0
+HIGH RISK,categorical__peel_color_YELLOW-ORAN GE-BROWN SPECKLED,0.0
+HIGH RISK,categorical__peel_color_YELLOW-ORANG E,0.0
+HIGH RISK,categorical__peel_color_YELLOW-ORANG E NOT FULLY DARK SPOT,0.0
+HIGH RISK,categorical__peel_color_YELLOW-ORANG E WITH BLACK SPECKLED,0.0
+HIGH RISK,categorical__peel_color_YELLOW-ORANG E WITH FORMING BLACK SPOT,0.0
+HIGH RISK,categorical__peel_color_YELLOW-ORANG E WITH FORMING FULL BLACK SPOT,0.0
+HIGH RISK,categorical__peel_color_YELLOW-ORANG E WITH FORMING FULL BROWN SPOT,0.0
+HIGH RISK,categorical__peel_color_YELLOW-ORANG E-BROWN SPECKLED,0.0
+HIGH RISK,categorical__peel_color_YELLOW-ORANGE,0.0
+HIGH RISK,categorical__peel_color_YELLOW-ORANGE WITH BLACK SPECKLED,0.0
+HIGH RISK,categorical__peel_color_YELLOW-ORANGE WITH BLACK SPOT,0.0
+HIGH RISK,categorical__peel_color_YELLOW-ORANGE WITH BROWN SPECKLED,0.0
+HIGH RISK,categorical__peel_color_YELLOW-ORANGE WITH BROWN SPOT,0.0
+HIGH RISK,categorical__peel_color_YELLOW-ORANGE WITH DARK SPOT,0.0
+HIGH RISK,categorical__peel_color_YELLOW-ORANGE WITH FORMING BLACK SPOT,0.0
+HIGH RISK,categorical__peel_color_YELLOW-ORANGE WITH FORMING FULL BLACK SPECKLED,0.0
+HIGH RISK,categorical__peel_color_YELLOW-ORANGE WITH FORMING FULL BLACK SPOT,0.0
+HIGH RISK,categorical__peel_color_YELLOW-ORANGE WITH FORMING FULL BROWN SPOT,0.0
+HIGH RISK,categorical__peel_color_YELLOW-ORANGE WITH FORMINGBLACK SPECKLED,0.0
+HIGH RISK,categorical__peel_color_YELLOW-ORANGE WITH SMALL BLACK SPECKLED,0.0
+HIGH RISK,categorical__peel_color_YELLOW-ORANGE WITH SMALL BLACK SPOT,0.0
+HIGH RISK,categorical__peel_color_YELLOW-ORANGE-BROWN SPECKLED,0.0
+HIGH RISK,categorical__peel_color_YELLOW-ORANGE-BROWN SPOT,0.0
+HIGH RISK,categorical__firmness_FIRM,0.0
+HIGH RISK,categorical__firmness_MODERATELY FIRM,0.0
+HIGH RISK,categorical__firmness_SLIGHTLY FIRM,0.0
+HIGH RISK,categorical__firmness_VERY FIRM,0.0
+LOW RISK,categorical__firmness_SLIGHTLY FIRM,2.014869
+LOW RISK,categorical__firmness_MEDIUM FIRM,0.64191556
+LOW RISK,numeric__humidity_change_pct,0.38750425
+LOW RISK,numeric__weight_g,0.37557825
+LOW RISK,numeric__storage_day,0.30058947
+LOW RISK,numeric__days_since_first_observation,0.24408941
+LOW RISK,categorical__peel_color_GREEN-YELLOW,0.19581865
+LOW RISK,categorical__firmness_SOFT,0.18594271
+LOW RISK,categorical__peel_color_YELLOW,0.18383282
+LOW RISK,numeric__relative_humidity_pct,0.13853045
+LOW RISK,numeric__temperature_change_c,0.11772952
+LOW RISK,numeric__weight_loss_change_pct,0.09307947
+LOW RISK,numeric__weight_loss_pct,0.091991685
+LOW RISK,categorical__peel_color_GREEN,0.088854775
+LOW RISK,numeric__weight_loss_rate_pct_per_day,0.061508592
+LOW RISK,categorical__firmness_VERY SOFT,0.059850264
+LOW RISK,numeric__temperature_c,0.048394103
+LOW RISK,categorical__firmness_FIRM,0.0369404
+LOW RISK,categorical__peel_color_YELLOW WITH BROWN SPOT,0.03199959
+LOW RISK,numeric__weight_change_g,0.016626019
+LOW RISK,categorical__peel_color_GOLDEN YELLOW,0.014912857
+LOW RISK,categorical__peel_color_LIGHT GREEN,0.0025809833
+LOW RISK,categorical__firmness_MUSHY,0.001404654
+LOW RISK,categorical__firmness_VERY FIRM,0.0006811515
+LOW RISK,numeric__observation_gap_days,0.0
+LOW RISK,categorical__peel_color_BLACK AND BROWN SPOTTED,0.0
+LOW RISK,categorical__peel_color_BLACK AND BROWN-SPOTTED,0.0
+LOW RISK,categorical__peel_color_BLACK SPOTTED WITH BROWN SPOT,0.0
+LOW RISK,categorical__peel_color_BLACK-SPOTTED,0.0
+LOW RISK,categorical__peel_color_BLACK-SPOTTED WITH BROWN SPOT,0.0
+LOW RISK,categorical__peel_color_BROWN-SPOTTED,0.0
+LOW RISK,categorical__peel_color_FULLY BLACK SPOTTED,0.0
+LOW RISK,categorical__peel_color_FULLY BLACK-SPOTTED,0.0
+LOW RISK,categorical__peel_color_FULLY BROWN-SPOTTED,0.0
+LOW RISK,categorical__peel_color_GOLDEN,0.0
+LOW RISK,categorical__peel_color_GOLDEN YELLOW WITH BLACK SPECKLED,0.0
+LOW RISK,categorical__peel_color_GOLDEN YELLOW WITH BLACK SPOT,0.0
+LOW RISK,categorical__peel_color_GOLDEN YELLOW WITH BROWN SPECKLED,0.0
+LOW RISK,categorical__peel_color_GOLDEN YELLOW WITH BROWN SPOT,0.0
+LOW RISK,categorical__peel_color_GOLDEN YELLOW WITH DARK SPOT,0.0
+LOW RISK,categorical__peel_color_GOLDEN YELLOW WITH FORMINGBR OWN SPOT,0.0
+LOW RISK,categorical__peel_color_GOLDEN YELLOW WITH NOT FULLY BROWN SPOT,0.0
+LOW RISK,categorical__peel_color_GOLDEN YELLOW WITH SMALL BLACK SPOT,0.0
+LOW RISK,categorical__peel_color_GOLDEN-YELLOW,0.0
+LOW RISK,categorical__peel_color_GREEN YELLOW,0.0
+LOW RISK,categorical__peel_color_GREEN-YELLOW WITH BROWN SPOT,0.0
+LOW RISK,categorical__peel_color_LIGHT GREEN WITH BROWN,0.0
+LOW RISK,categorical__peel_color_NOT FULLY BLACK SPOT,0.0
+LOW RISK,categorical__peel_color_NOT FULLY BROWN SPOT,0.0
+LOW RISK,categorical__peel_color_YELLOW FORMING BLACK SPOT,0.0
+LOW RISK,categorical__peel_color_YELLOW ORANGE,0.0
+LOW RISK,categorical__peel_color_YELLOW ORANGE WITH BLACK SPECKLED,0.0
+LOW RISK,categorical__peel_color_YELLOW ORANGE WITH BLACK SPOT,0.0
+LOW RISK,categorical__peel_color_YELLOW ORANGE WITH BROWN SPOT,0.0
+LOW RISK,categorical__peel_color_YELLOW ORANGE WITH DARK SPOT,0.0
+LOW RISK,categorical__peel_color_YELLOW ORANGE WITH FORMING BLACK SPECKLED,0.0
+LOW RISK,categorical__peel_color_YELLOW ORANGE WITH FORMING BLACK SPOT,0.0
+LOW RISK,categorical__peel_color_YELLOW ORANGE WITH FORMING FULL BLACK SPOT,0.0
+LOW RISK,categorical__peel_color_YELLOW ORANGE WITH FORMING FULL BROWN,0.0
+LOW RISK,categorical__peel_color_YELLOW ORANGE WITH FORMING FULL BROWN SPOT,0.0
+LOW RISK,categorical__peel_color_YELLOW ORANGE WITH SMALL BLACK SPECKLED,0.0
+LOW RISK,categorical__peel_color_YELLOW ORANGE WITH SMALL BLACK SPOT,0.0
+LOW RISK,categorical__peel_color_YELLOW ORANGE WITH SMALL DARK SPOT,0.0
+LOW RISK,categorical__peel_color_YELLOW ORANGE-BLACK SPECKLED,0.0
+LOW RISK,categorical__peel_color_YELLOW WITH BLACK BLACK SPOT,0.0
+LOW RISK,categorical__peel_color_YELLOW WITH BLACK SPECKLED,0.0
+LOW RISK,categorical__peel_color_YELLOW WITH BLACK SPOT,0.0
+LOW RISK,categorical__peel_color_YELLOW WITH BROWN AND DARK SPOT,0.0
+LOW RISK,categorical__peel_color_YELLOW WITH DARK AND BROWN SPOT,0.0
+LOW RISK,categorical__peel_color_YELLOW WITH DARK SPOT,0.0
+LOW RISK,categorical__peel_color_YELLOW WITH FORMING FULL BLACK SPOT,0.0
+LOW RISK,categorical__peel_color_YELLOW WITH NOT FULLY BROWN SPOT AND,0.0
+LOW RISK,categorical__peel_color_YELLOW WITH NOT FULLY BROWN SPOT AND DARK SPOT,0.0
+LOW RISK,categorical__peel_color_YELLOW WITH SMALL BLACK SPECKLED,0.0
+LOW RISK,categorical__peel_color_YELLOW WITH SMALL SPOT,0.0
+LOW RISK,categorical__peel_color_YELLOW-ORAN GE BROWN SPECKLED,0.0
+LOW RISK,categorical__peel_color_YELLOW-ORAN GE WITH BROW,0.0
+LOW RISK,categorical__peel_color_YELLOW-ORAN GE WITH FORMING FULL BROWN SPOT,0.0
+LOW RISK,categorical__peel_color_YELLOW-ORAN GE-BROWN SPECKLED,0.0
+LOW RISK,categorical__peel_color_YELLOW-ORANG E,0.0
+LOW RISK,categorical__peel_color_YELLOW-ORANG E NOT FULLY DARK SPOT,0.0
+LOW RISK,categorical__peel_color_YELLOW-ORANG E WITH BLACK SPECKLED,0.0
+LOW RISK,categorical__peel_color_YELLOW-ORANG E WITH FORMING BLACK SPOT,0.0
+LOW RISK,categorical__peel_color_YELLOW-ORANG E WITH FORMING FULL BLACK SPOT,0.0
+LOW RISK,categorical__peel_color_YELLOW-ORANG E WITH FORMING FULL BROWN SPOT,0.0
+LOW RISK,categorical__peel_color_YELLOW-ORANG E-BROWN SPECKLED,0.0
+LOW RISK,categorical__peel_color_YELLOW-ORANGE,0.0
+LOW RISK,categorical__peel_color_YELLOW-ORANGE WITH BLACK SPECKLED,0.0
+LOW RISK,categorical__peel_color_YELLOW-ORANGE WITH BLACK SPOT,0.0
+LOW RISK,categorical__peel_color_YELLOW-ORANGE WITH BROWN AND BLACK SPECKLED,0.0
+LOW RISK,categorical__peel_color_YELLOW-ORANGE WITH BROWN SPECKLED,0.0
+LOW RISK,categorical__peel_color_YELLOW-ORANGE WITH BROWN SPOT,0.0
+LOW RISK,categorical__peel_color_YELLOW-ORANGE WITH DARK SPOT,0.0
+LOW RISK,categorical__peel_color_YELLOW-ORANGE WITH FORMING BLACK SPOT,0.0
+LOW RISK,categorical__peel_color_YELLOW-ORANGE WITH FORMING FULL BLACK SPECKLED,0.0
+LOW RISK,categorical__peel_color_YELLOW-ORANGE WITH FORMING FULL BLACK SPOT,0.0
+LOW RISK,categorical__peel_color_YELLOW-ORANGE WITH FORMING FULL BROWN SPOT,0.0
+LOW RISK,categorical__peel_color_YELLOW-ORANGE WITH FORMINGBLACK SPECKLED,0.0
+LOW RISK,categorical__peel_color_YELLOW-ORANGE WITH SMALL BLACK SPECKLED,0.0
+LOW RISK,categorical__peel_color_YELLOW-ORANGE WITH SMALL BLACK SPOT,0.0
+LOW RISK,categorical__peel_color_YELLOW-ORANGE-BROWN SPECKLED,0.0
+LOW RISK,categorical__peel_color_YELLOW-ORANGE-BROWN SPOT,0.0
+LOW RISK,categorical__firmness_MODERATELY FIRM,0.0
+MODERATE RISK,categorical__firmness_SOFT,2.213786
+MODERATE RISK,categorical__firmness_MEDIUM FIRM,0.53382534
+MODERATE RISK,numeric__days_since_first_observation,0.4952918
+MODERATE RISK,categorical__peel_color_GOLDEN YELLOW WITH BROWN SPOT,0.34228024
+MODERATE RISK,numeric__weight_g,0.2995402
+MODERATE RISK,numeric__humidity_change_pct,0.23246013
+MODERATE RISK,categorical__firmness_SLIGHTLY FIRM,0.20706211
+MODERATE RISK,numeric__temperature_change_c,0.16865724
+MODERATE RISK,numeric__weight_loss_change_pct,0.14237128
+MODERATE RISK,numeric__relative_humidity_pct,0.12498462
+MODERATE RISK,numeric__storage_day,0.11668264
+MODERATE RISK,categorical__peel_color_YELLOW,0.07149355
+MODERATE RISK,numeric__weight_loss_pct,0.06932948
+MODERATE RISK,categorical__firmness_VERY SOFT,0.050860677
+MODERATE RISK,numeric__temperature_c,0.04334947
+MODERATE RISK,categorical__peel_color_GOLDEN YELLOW,0.03546268
+MODERATE RISK,numeric__weight_change_g,0.025802827
+MODERATE RISK,categorical__peel_color_GREEN-YELLOW,0.019646304
+MODERATE RISK,numeric__weight_loss_rate_pct_per_day,0.018025702
+MODERATE RISK,categorical__peel_color_YELLOW ORANGE,0.009499038
+MODERATE RISK,categorical__firmness_MUSHY,0.0005873648
+MODERATE RISK,numeric__observation_gap_days,0.0
+MODERATE RISK,categorical__peel_color_BLACK AND BROWN SPOTTED,0.0
+MODERATE RISK,categorical__peel_color_BLACK AND BROWN-SPOTTED,0.0
+MODERATE RISK,categorical__peel_color_BLACK SPOTTED WITH BROWN SPOT,0.0
+MODERATE RISK,categorical__peel_color_BLACK-SPOTTED,0.0
+MODERATE RISK,categorical__peel_color_BLACK-SPOTTED WITH BROWN SPOT,0.0
+MODERATE RISK,categorical__peel_color_BROWN-SPOTTED,0.0
+MODERATE RISK,categorical__peel_color_FULLY BLACK SPOTTED,0.0
+MODERATE RISK,categorical__peel_color_FULLY BLACK-SPOTTED,0.0
+MODERATE RISK,categorical__peel_color_FULLY BROWN-SPOTTED,0.0
+MODERATE RISK,categorical__peel_color_GOLDEN,0.0
+MODERATE RISK,categorical__peel_color_GOLDEN YELLOW WITH BLACK SPECKLED,0.0
+MODERATE RISK,categorical__peel_color_GOLDEN YELLOW WITH BLACK SPOT,0.0
+MODERATE RISK,categorical__peel_color_GOLDEN YELLOW WITH BROWN SPECKLED,0.0
+MODERATE RISK,categorical__peel_color_GOLDEN YELLOW WITH DARK SPOT,0.0
+MODERATE RISK,categorical__peel_color_GOLDEN YELLOW WITH FORMINGBR OWN SPOT,0.0
+MODERATE RISK,categorical__peel_color_GOLDEN YELLOW WITH NOT FULLY BROWN SPOT,0.0
+MODERATE RISK,categorical__peel_color_GOLDEN YELLOW WITH SMALL BLACK SPOT,0.0
+MODERATE RISK,categorical__peel_color_GOLDEN-YELLOW,0.0
+MODERATE RISK,categorical__peel_color_GREEN,0.0
+MODERATE RISK,categorical__peel_color_GREEN YELLOW,0.0
+MODERATE RISK,categorical__peel_color_GREEN-YELLOW WITH BROWN SPOT,0.0
+MODERATE RISK,categorical__peel_color_LIGHT GREEN,0.0
+MODERATE RISK,categorical__peel_color_LIGHT GREEN WITH BROWN,0.0
+MODERATE RISK,categorical__peel_color_NOT FULLY BLACK SPOT,0.0
+MODERATE RISK,categorical__peel_color_NOT FULLY BROWN SPOT,0.0
+MODERATE RISK,categorical__peel_color_YELLOW FORMING BLACK SPOT,0.0
+MODERATE RISK,categorical__peel_color_YELLOW ORANGE WITH BLACK SPECKLED,0.0
+MODERATE RISK,categorical__peel_color_YELLOW ORANGE WITH BLACK SPOT,0.0
+MODERATE RISK,categorical__peel_color_YELLOW ORANGE WITH BROWN SPOT,0.0
+MODERATE RISK,categorical__peel_color_YELLOW ORANGE WITH DARK SPOT,0.0
+MODERATE RISK,categorical__peel_color_YELLOW ORANGE WITH FORMING BLACK SPECKLED,0.0
+MODERATE RISK,categorical__peel_color_YELLOW ORANGE WITH FORMING BLACK SPOT,0.0
+MODERATE RISK,categorical__peel_color_YELLOW ORANGE WITH FORMING FULL BLACK SPOT,0.0
+MODERATE RISK,categorical__peel_color_YELLOW ORANGE WITH FORMING FULL BROWN,0.0
+MODERATE RISK,categorical__peel_color_YELLOW ORANGE WITH FORMING FULL BROWN SPOT,0.0
+MODERATE RISK,categorical__peel_color_YELLOW ORANGE WITH SMALL BLACK SPECKLED,0.0
+MODERATE RISK,categorical__peel_color_YELLOW ORANGE WITH SMALL BLACK SPOT,0.0
+MODERATE RISK,categorical__peel_color_YELLOW ORANGE WITH SMALL DARK SPOT,0.0
+MODERATE RISK,categorical__peel_color_YELLOW ORANGE-BLACK SPECKLED,0.0
+MODERATE RISK,categorical__peel_color_YELLOW WITH BLACK BLACK SPOT,0.0
+MODERATE RISK,categorical__peel_color_YELLOW WITH BLACK SPECKLED,0.0
+MODERATE RISK,categorical__peel_color_YELLOW WITH BLACK SPOT,0.0
+MODERATE RISK,categorical__peel_color_YELLOW WITH BROWN AND DARK SPOT,0.0
+MODERATE RISK,categorical__peel_color_YELLOW WITH BROWN SPOT,0.0
+MODERATE RISK,categorical__peel_color_YELLOW WITH DARK AND BROWN SPOT,0.0
+MODERATE RISK,categorical__peel_color_YELLOW WITH DARK SPOT,0.0
+MODERATE RISK,categorical__peel_color_YELLOW WITH FORMING FULL BLACK SPOT,0.0
+MODERATE RISK,categorical__peel_color_YELLOW WITH NOT FULLY BROWN SPOT AND,0.0
+MODERATE RISK,categorical__peel_color_YELLOW WITH NOT FULLY BROWN SPOT AND DARK SPOT,0.0
+MODERATE RISK,categorical__peel_color_YELLOW WITH SMALL BLACK SPECKLED,0.0
+MODERATE RISK,categorical__peel_color_YELLOW WITH SMALL SPOT,0.0
+MODERATE RISK,categorical__peel_color_YELLOW-ORAN GE BROWN SPECKLED,0.0
+MODERATE RISK,categorical__peel_color_YELLOW-ORAN GE WITH BROW,0.0
+MODERATE RISK,categorical__peel_color_YELLOW-ORAN GE WITH FORMING FULL BROWN SPOT,0.0
+MODERATE RISK,categorical__peel_color_YELLOW-ORAN GE-BROWN SPECKLED,0.0
+MODERATE RISK,categorical__peel_color_YELLOW-ORANG E,0.0
+MODERATE RISK,categorical__peel_color_YELLOW-ORANG E NOT FULLY DARK SPOT,0.0
+MODERATE RISK,categorical__peel_color_YELLOW-ORANG E WITH BLACK SPECKLED,0.0
+MODERATE RISK,categorical__peel_color_YELLOW-ORANG E WITH FORMING BLACK SPOT,0.0
+MODERATE RISK,categorical__peel_color_YELLOW-ORANG E WITH FORMING FULL BLACK SPOT,0.0
+MODERATE RISK,categorical__peel_color_YELLOW-ORANG E WITH FORMING FULL BROWN SPOT,0.0
+MODERATE RISK,categorical__peel_color_YELLOW-ORANG E-BROWN SPECKLED,0.0
+MODERATE RISK,categorical__peel_color_YELLOW-ORANGE,0.0
+MODERATE RISK,categorical__peel_color_YELLOW-ORANGE WITH BLACK SPECKLED,0.0
+MODERATE RISK,categorical__peel_color_YELLOW-ORANGE WITH BLACK SPOT,0.0
+MODERATE RISK,categorical__peel_color_YELLOW-ORANGE WITH BROWN AND BLACK SPECKLED,0.0
+MODERATE RISK,categorical__peel_color_YELLOW-ORANGE WITH BROWN SPECKLED,0.0
+MODERATE RISK,categorical__peel_color_YELLOW-ORANGE WITH BROWN SPOT,0.0
+MODERATE RISK,categorical__peel_color_YELLOW-ORANGE WITH DARK SPOT,0.0
+MODERATE RISK,categorical__peel_color_YELLOW-ORANGE WITH FORMING BLACK SPOT,0.0
+MODERATE RISK,categorical__peel_color_YELLOW-ORANGE WITH FORMING FULL BLACK SPECKLED,0.0
+MODERATE RISK,categorical__peel_color_YELLOW-ORANGE WITH FORMING FULL BLACK SPOT,0.0
+MODERATE RISK,categorical__peel_color_YELLOW-ORANGE WITH FORMING FULL BROWN SPOT,0.0
+MODERATE RISK,categorical__peel_color_YELLOW-ORANGE WITH FORMINGBLACK SPECKLED,0.0
+MODERATE RISK,categorical__peel_color_YELLOW-ORANGE WITH SMALL BLACK SPECKLED,0.0
+MODERATE RISK,categorical__peel_color_YELLOW-ORANGE WITH SMALL BLACK SPOT,0.0
+MODERATE RISK,categorical__peel_color_YELLOW-ORANGE-BROWN SPECKLED,0.0
+MODERATE RISK,categorical__peel_color_YELLOW-ORANGE-BROWN SPOT,0.0
+MODERATE RISK,categorical__firmness_FIRM,0.0
+MODERATE RISK,categorical__firmness_MODERATELY FIRM,0.0
+MODERATE RISK,categorical__firmness_VERY FIRM,0.0
+VERY HIGH RISK,categorical__firmness_MUSHY,3.7685232
+VERY HIGH RISK,numeric__storage_day,0.9688922
+VERY HIGH RISK,numeric__weight_loss_change_pct,0.19847916
+VERY HIGH RISK,numeric__days_since_first_observation,0.14237277
+VERY HIGH RISK,numeric__weight_g,0.119162954
+VERY HIGH RISK,categorical__firmness_VERY SOFT,0.07812287
+VERY HIGH RISK,categorical__peel_color_FULLY BLACK-SPOTTED,0.06056717
+VERY HIGH RISK,numeric__weight_loss_rate_pct_per_day,0.058591537
+VERY HIGH RISK,numeric__humidity_change_pct,0.057873327
+VERY HIGH RISK,numeric__temperature_change_c,0.051234625
+VERY HIGH RISK,numeric__temperature_c,0.027977841
+VERY HIGH RISK,numeric__relative_humidity_pct,0.017897734
+VERY HIGH RISK,numeric__weight_change_g,0.016912114
+VERY HIGH RISK,numeric__weight_loss_pct,0.0036607475
+VERY HIGH RISK,numeric__observation_gap_days,0.0
+VERY HIGH RISK,categorical__peel_color_BLACK AND BROWN SPOTTED,0.0
+VERY HIGH RISK,categorical__peel_color_BLACK AND BROWN-SPOTTED,0.0
+VERY HIGH RISK,categorical__peel_color_BLACK SPOTTED WITH BROWN SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_BLACK-SPOTTED,0.0
+VERY HIGH RISK,categorical__peel_color_BLACK-SPOTTED WITH BROWN SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_BROWN-SPOTTED,0.0
+VERY HIGH RISK,categorical__peel_color_FULLY BLACK SPOTTED,0.0
+VERY HIGH RISK,categorical__peel_color_FULLY BROWN-SPOTTED,0.0
+VERY HIGH RISK,categorical__peel_color_GOLDEN,0.0
+VERY HIGH RISK,categorical__peel_color_GOLDEN YELLOW,0.0
+VERY HIGH RISK,categorical__peel_color_GOLDEN YELLOW WITH BLACK SPECKLED,0.0
+VERY HIGH RISK,categorical__peel_color_GOLDEN YELLOW WITH BLACK SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_GOLDEN YELLOW WITH BROWN SPECKLED,0.0
+VERY HIGH RISK,categorical__peel_color_GOLDEN YELLOW WITH BROWN SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_GOLDEN YELLOW WITH DARK SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_GOLDEN YELLOW WITH FORMINGBR OWN SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_GOLDEN YELLOW WITH NOT FULLY BROWN SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_GOLDEN YELLOW WITH SMALL BLACK SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_GOLDEN-YELLOW,0.0
+VERY HIGH RISK,categorical__peel_color_GREEN,0.0
+VERY HIGH RISK,categorical__peel_color_GREEN YELLOW,0.0
+VERY HIGH RISK,categorical__peel_color_GREEN-YELLOW,0.0
+VERY HIGH RISK,categorical__peel_color_GREEN-YELLOW WITH BROWN SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_LIGHT GREEN,0.0
+VERY HIGH RISK,categorical__peel_color_LIGHT GREEN WITH BROWN,0.0
+VERY HIGH RISK,categorical__peel_color_NOT FULLY BLACK SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_NOT FULLY BROWN SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW FORMING BLACK SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW ORANGE,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW ORANGE WITH BLACK SPECKLED,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW ORANGE WITH BLACK SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW ORANGE WITH BROWN SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW ORANGE WITH DARK SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW ORANGE WITH FORMING BLACK SPECKLED,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW ORANGE WITH FORMING BLACK SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW ORANGE WITH FORMING FULL BLACK SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW ORANGE WITH FORMING FULL BROWN,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW ORANGE WITH FORMING FULL BROWN SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW ORANGE WITH SMALL BLACK SPECKLED,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW ORANGE WITH SMALL BLACK SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW ORANGE WITH SMALL DARK SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW ORANGE-BLACK SPECKLED,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW WITH BLACK BLACK SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW WITH BLACK SPECKLED,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW WITH BLACK SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW WITH BROWN AND DARK SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW WITH BROWN SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW WITH DARK AND BROWN SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW WITH DARK SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW WITH FORMING FULL BLACK SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW WITH NOT FULLY BROWN SPOT AND,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW WITH NOT FULLY BROWN SPOT AND DARK SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW WITH SMALL BLACK SPECKLED,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW WITH SMALL SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW-ORAN GE BROWN SPECKLED,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW-ORAN GE WITH BROW,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW-ORAN GE WITH FORMING FULL BROWN SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW-ORAN GE-BROWN SPECKLED,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW-ORANG E,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW-ORANG E NOT FULLY DARK SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW-ORANG E WITH BLACK SPECKLED,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW-ORANG E WITH FORMING BLACK SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW-ORANG E WITH FORMING FULL BLACK SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW-ORANG E WITH FORMING FULL BROWN SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW-ORANG E-BROWN SPECKLED,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW-ORANGE,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW-ORANGE WITH BLACK SPECKLED,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW-ORANGE WITH BLACK SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW-ORANGE WITH BROWN AND BLACK SPECKLED,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW-ORANGE WITH BROWN SPECKLED,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW-ORANGE WITH BROWN SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW-ORANGE WITH DARK SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW-ORANGE WITH FORMING BLACK SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW-ORANGE WITH FORMING FULL BLACK SPECKLED,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW-ORANGE WITH FORMING FULL BLACK SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW-ORANGE WITH FORMING FULL BROWN SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW-ORANGE WITH FORMINGBLACK SPECKLED,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW-ORANGE WITH SMALL BLACK SPECKLED,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW-ORANGE WITH SMALL BLACK SPOT,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW-ORANGE-BROWN SPECKLED,0.0
+VERY HIGH RISK,categorical__peel_color_YELLOW-ORANGE-BROWN SPOT,0.0
+VERY HIGH RISK,categorical__firmness_FIRM,0.0
+VERY HIGH RISK,categorical__firmness_MEDIUM FIRM,0.0
+VERY HIGH RISK,categorical__firmness_MODERATELY FIRM,0.0
+VERY HIGH RISK,categorical__firmness_SLIGHTLY FIRM,0.0
+VERY HIGH RISK,categorical__firmness_SOFT,0.0
+VERY HIGH RISK,categorical__firmness_VERY FIRM,0.0

@@ -1,0 +1,6 @@
+mango_id,storage_day,column,previous_value,verified_value,action
+M01,10,firmness,SPOILED,MUSHY,CORRECTED
+M01,10,ripeness_stage,MUSHY,SPOILED,CORRECTED
+M21,12,ripeness_stage,OVERRIPE,SPOILED,CORRECTED
+M25,13,ripeness_stage,OVERRIPE,SPOILED,CORRECTED
+M40,14,Complete observation,Record absent,Original Day 14 measurement,ADDED VERIFIED OBSERVATION

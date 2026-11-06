@@ -1,0 +1,23 @@
+MODEL: STORAGE_DAY_ONLY
+
+Predictors: ['storage_day']
+
+                precision    recall  f1-score   support
+
+         FRESH       1.00      0.92      0.96        52
+     HIGH RISK       0.76      0.81      0.78        31
+      LOW RISK       0.83      0.77      0.80        26
+ MODERATE RISK       0.66      1.00      0.79        23
+VERY HIGH RISK       1.00      0.27      0.43        11
+
+      accuracy                           0.83       143
+     macro avg       0.85      0.75      0.75       143
+  weighted avg       0.86      0.83      0.82       143
+
+Confusion Matrix:
+                FRESH  HIGH RISK  LOW RISK  MODERATE RISK  VERY HIGH RISK
+FRESH              48          0         4              0               0
+HIGH RISK           0         25         0              6               0
+LOW RISK            0          0        20              6               0
+MODERATE RISK       0          0         0             23               0
+VERY HIGH RISK      0          8         0              0               3

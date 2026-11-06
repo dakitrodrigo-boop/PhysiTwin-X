@@ -1,0 +1,16 @@
+PHYSITWIN-X STEP 5E: SHELF-LIFE TARGET SUMMARY
+=======================================================
+Total observations: 745
+Total mangoes: 60
+Endpoint observations: 60
+Minimum remaining shelf life: 0
+Maximum remaining shelf life: 13
+Mean remaining shelf life: 5.847
+
+Formula:
+Remaining shelf life = First spoiled day - Current storage day
+
+Input: C:\Users\USER\OneDrive\PhysiTwin-X\data\physitwin_x_endpoint_reverified.csv
+Output: C:\Users\USER\OneDrive\PhysiTwin-X\data\physitwin_x_shelf_life_targets.csv
+
+Original input dataset preserved.

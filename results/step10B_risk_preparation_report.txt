@@ -1,0 +1,77 @@
+=================================================================
+PHYSITWIN-X STEP 10B
+REVISED SPOILAGE-RISK DATA PREPARATION
+=================================================================
+[PASS] No duplicate source column names
+[PASS] No duplicate training column names
+[PASS] No duplicate testing column names
+[PASS] All required source columns exist
+[PASS] All required training columns exist
+[PASS] All required testing columns exist
+[PASS] No duplicate mango/day records in source
+[PASS] No missing spoilage-risk labels in source
+[PASS] TRAINING: all records matched with risk labels
+[PASS] TESTING: all records matched with risk labels
+[PASS] TRAINING: missing values limited to six expected columns
+[PASS] TRAINING: expected missing values occur only in first observations
+[PASS] TRAINING: all first observations have unavailable lag values
+[PASS] TRAINING: all other predictors and labels are complete
+
+TRAINING missing-value summary:
+Total missing values: 288
+Expected missing values: 288
+Missing values outside expected columns: 0
+[PASS] TESTING: missing values limited to six expected columns
+[PASS] TESTING: expected missing values occur only in first observations
+[PASS] TESTING: all first observations have unavailable lag values
+[PASS] TESTING: all other predictors and labels are complete
+
+TESTING missing-value summary:
+Total missing values: 72
+Expected missing values: 72
+Missing values outside expected columns: 0
+[PASS] Training and testing mangoes do not overlap
+[PASS] All source mangoes are represented
+[PASS] Training contains 48 mangoes
+[PASS] Testing contains 12 mangoes
+[PASS] Training contains all five risk classes
+[PASS] Testing contains all five risk classes
+
+=================================================================
+DATASET SUMMARY
+=================================================================
+Source observations: 745
+Source mangoes: 60
+Training observations: 602
+Training mangoes: 48
+Testing observations: 143
+Testing mangoes: 12
+
+TRAINING RISK DISTRIBUTION
+spoilage_risk
+FRESH             213
+HIGH RISK         154
+LOW RISK           98
+MODERATE RISK      89
+VERY HIGH RISK     48
+
+TESTING RISK DISTRIBUTION
+spoilage_risk
+FRESH             52
+HIGH RISK         31
+LOW RISK          26
+MODERATE RISK     23
+VERY HIGH RISK    11
+
+=================================================================
+VALIDATION RESULTS
+=================================================================
+Checks passed: 24/24
+Checks failed: 0
+
+STEP 10B PASSED
+Risk datasets are ready for classification modeling.
+
+OUTPUT FILES
+C:\Users\USER\OneDrive\PhysiTwin-X\data\physitwin_x_risk_train.csv
+C:\Users\USER\OneDrive\PhysiTwin-X\data\physitwin_x_risk_test.csv

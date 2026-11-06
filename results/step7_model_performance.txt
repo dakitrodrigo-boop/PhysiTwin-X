@@ -1,0 +1,32 @@
+=================================================================
+PHYSITWIN-X STEP 7 MODEL PERFORMANCE REPORT
+=================================================================
+
+MODEL INFORMATION
+Algorithm: XGBoost Regression
+Number of predictors: 14
+Training observations: 602
+Training mangoes: 48
+Testing observations: 143
+Testing mangoes: 12
+
+XGBOOST TEST PERFORMANCE
+MAE: 1.1524 days
+RMSE: 1.3965 days
+R2: 0.8511
+
+BASELINE TEST PERFORMANCE
+Baseline MAE: 3.1112 days
+Baseline RMSE: 3.6330 days
+Baseline R2: -0.0079
+
+DATA LEAKAGE CHECK
+Shared mango IDs: 0
+Status: PASSED
+
+OUTPUT FILES
+C:\Users\USER\OneDrive\PhysiTwin-X\results\physitwin_x_xgboost_model.joblib
+C:\Users\USER\OneDrive\PhysiTwin-X\results\step7_shelf_life_predictions.csv
+C:\Users\USER\OneDrive\PhysiTwin-X\results\step7_feature_importance.csv
+
+STEP 7 STATUS: COMPLETED

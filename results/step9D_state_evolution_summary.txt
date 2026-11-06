@@ -1,0 +1,70 @@
+=================================================================
+PHYSITWIN-X STEP 9D STATE EVOLUTION SUMMARY
+=================================================================
+Total observations: 745
+Unique mangoes: 60
+Storage days analyzed: 14
+
+DAILY OBSERVATION COUNTS
+ storage_day  mangoes_observed  observations
+           1                60            60
+           2                60            60
+           3                60            60
+           4                60            60
+           5                59            59
+           6                60            60
+           7                59            59
+           8                60            60
+           9                58            58
+          10                58            58
+          11                51            51
+          12                40            40
+          13                34            34
+          14                26            26
+
+DAILY STATE SUMMARY
+ storage_day  mean_firmness_state  mean_ripeness_state  mean_weight_loss_pct  mean_weight_g
+           1                0.000                0.000                 0.000        280.333
+           2                0.000                0.000                 1.665        276.550
+           3                0.000                0.000                 0.703        274.250
+           4                0.467                0.283                 1.258        272.250
+           5                3.254                1.898                 2.534        267.203
+           6                3.083                2.267                 1.998        261.583
+           7                4.051                3.305                 1.856        256.780
+           8                4.283                3.733                 1.209        254.917
+           9                4.948                4.224                 1.812        250.517
+          10                5.914                4.966                 2.399        244.741
+          11                6.039                5.059                 2.336        242.843
+          12                6.050                4.875                 1.758        240.875
+          13                6.235                5.235                 1.284        243.088
+          14                6.962                6.000                 1.565        240.000
+
+VALIDATION
+Original observation count preserved: True
+60 unique mangoes: True
+No duplicate mango-day records: True
+14 storage days represented: True
+No missing daily mean values: True
+
+Overall validation passed: True
+
+OUTPUT FILES
+C:\Users\USER\OneDrive\PhysiTwin-X\data\physitwin_x_daily_state_summary.csv
+C:\Users\USER\OneDrive\PhysiTwin-X\results\step9D_state_evolution_summary.txt
+
+FIGURES
+step9D_firmness_evolution.png
+step9D_ripeness_evolution.png
+step9D_weight_loss_evolution.png
+step9D_weight_evolution.png
+step9D_temperature_evolution.png
+step9D_humidity_evolution.png
+
+NOTE
+Daily averages are descriptive summaries.
+Ordinal firmness and ripeness scores are category codes,
+not direct physical measurements.
+Daily sample counts are displayed to identify changes
+in the number of observed mangoes.
+
+STEP 9D STATUS

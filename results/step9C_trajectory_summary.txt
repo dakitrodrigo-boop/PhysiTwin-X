@@ -1,0 +1,16 @@
+=================================================================
+PHYSITWIN-X STEP 9C SUMMARY
+=================================================================
+Total observations: 745
+Unique mangoes: 60
+Overview graph created: True
+Individual graphs created: 60
+Trajectory data rows: 745
+Duplicate mango-day records: 0
+
+OUTPUT FILES
+C:\Users\USER\OneDrive\PhysiTwin-X\results\figures\step9C_all_mango_trajectories.png
+C:\Users\USER\OneDrive\PhysiTwin-X\data\physitwin_x_individual_trajectories.csv
+C:\Users\USER\OneDrive\PhysiTwin-X\results\figures\individual_mango_trajectories
+
+STEP 9C STATUS: COMPLETED

@@ -1,0 +1,93 @@
+=================================================================
+PHYSITWIN-X STEP 10B-1: MISSING-VALUE DIAGNOSTIC
+=================================================================
+
+DATASET: physitwin_x_risk_train.csv
+-----------------------------------------------------------------
+Observations: 602
+Columns: 16
+Unique mangoes: 48
+
+Total missing values: 288
+
+MISSING VALUES BY COLUMN
+observation_gap_days            48
+weight_change_g                 48
+weight_loss_change_pct          48
+weight_loss_rate_pct_per_day    48
+temperature_change_c            48
+humidity_change_pct             48
+
+MISSING VALUES IN FIRST OBSERVATION
+observation_gap_days            48
+weight_change_g                 48
+weight_loss_change_pct          48
+weight_loss_rate_pct_per_day    48
+temperature_change_c            48
+humidity_change_pct             48
+
+MISSING VALUES AFTER FIRST OBSERVATION
+No missing values after first observations.
+
+NUMBER OF ROWS WITH MISSING VALUES
+48
+
+FIRST 10 AFFECTED RECORDS
+mango_id  storage_day  temperature_c  relative_humidity_pct  weight_g  weight_loss_pct peel_color  firmness  days_since_first_observation  observation_gap_days  weight_change_g  weight_loss_change_pct  weight_loss_rate_pct_per_day  temperature_change_c  humidity_change_pct spoilage_risk
+     M02            1           30.5                   89.0     340.0              0.0      GREEN VERY FIRM                             0                   NaN              NaN                     NaN                           NaN                   NaN                  NaN         FRESH
+     M03            1           30.5                   89.0     320.0              0.0      GREEN VERY FIRM                             0                   NaN              NaN                     NaN                           NaN                   NaN                  NaN         FRESH
+     M04            1           30.5                   89.0     415.0              0.0      GREEN VERY FIRM                             0                   NaN              NaN                     NaN                           NaN                   NaN                  NaN         FRESH
+     M05            1           30.5                   89.0     350.0              0.0      GREEN VERY FIRM                             0                   NaN              NaN                     NaN                           NaN                   NaN                  NaN         FRESH
+     M07            1           30.5                   89.0     345.0              0.0      GREEN VERY FIRM                             0                   NaN              NaN                     NaN                           NaN                   NaN                  NaN         FRESH
+     M08            1           30.5                   89.0     250.0              0.0      GREEN VERY FIRM                             0                   NaN              NaN                     NaN                           NaN                   NaN                  NaN         FRESH
+     M09            1           30.5                   89.0     310.0              0.0      GREEN VERY FIRM                             0                   NaN              NaN                     NaN                           NaN                   NaN                  NaN         FRESH
+     M10            1           30.5                   89.0     355.0              0.0      GREEN VERY FIRM                             0                   NaN              NaN                     NaN                           NaN                   NaN                  NaN         FRESH
+     M11            1           30.5                   89.0     340.0              0.0      GREEN VERY FIRM                             0                   NaN              NaN                     NaN                           NaN                   NaN                  NaN         FRESH
+     M12            1           30.5                   89.0     315.0              0.0      GREEN VERY FIRM                             0                   NaN              NaN                     NaN                           NaN                   NaN                  NaN         FRESH
+
+=================================================================
+
+DATASET: physitwin_x_risk_test.csv
+-----------------------------------------------------------------
+Observations: 143
+Columns: 16
+Unique mangoes: 12
+
+Total missing values: 72
+
+MISSING VALUES BY COLUMN
+observation_gap_days            12
+weight_change_g                 12
+weight_loss_change_pct          12
+weight_loss_rate_pct_per_day    12
+temperature_change_c            12
+humidity_change_pct             12
+
+MISSING VALUES IN FIRST OBSERVATION
+observation_gap_days            12
+weight_change_g                 12
+weight_loss_change_pct          12
+weight_loss_rate_pct_per_day    12
+temperature_change_c            12
+humidity_change_pct             12
+
+MISSING VALUES AFTER FIRST OBSERVATION
+No missing values after first observations.
+
+NUMBER OF ROWS WITH MISSING VALUES
+12
+
+FIRST 10 AFFECTED RECORDS
+mango_id  storage_day  temperature_c  relative_humidity_pct  weight_g  weight_loss_pct peel_color  firmness  days_since_first_observation  observation_gap_days  weight_change_g  weight_loss_change_pct  weight_loss_rate_pct_per_day  temperature_change_c  humidity_change_pct spoilage_risk
+     M01            1           30.5                   89.0     280.0              0.0      GREEN VERY FIRM                             0                   NaN              NaN                     NaN                           NaN                   NaN                  NaN         FRESH
+     M06            1           30.5                   89.0     300.0              0.0      GREEN VERY FIRM                             0                   NaN              NaN                     NaN                           NaN                   NaN                  NaN         FRESH
+     M13            1           30.5                   89.0     230.0              0.0      GREEN VERY FIRM                             0                   NaN              NaN                     NaN                           NaN                   NaN                  NaN         FRESH
+     M14            1           30.5                   89.0     290.0              0.0      GREEN VERY FIRM                             0                   NaN              NaN                     NaN                           NaN                   NaN                  NaN         FRESH
+     M34            1           30.5                   89.0     215.0              0.0      GREEN VERY FIRM                             0                   NaN              NaN                     NaN                           NaN                   NaN                  NaN         FRESH
+     M37            1           30.5                   89.0     260.0              0.0      GREEN VERY FIRM                             0                   NaN              NaN                     NaN                           NaN                   NaN                  NaN         FRESH
+     M46            1           30.5                   89.0     200.0              0.0      GREEN VERY FIRM                             0                   NaN              NaN                     NaN                           NaN                   NaN                  NaN         FRESH
+     M47            1           30.5                   89.0     330.0              0.0      GREEN VERY FIRM                             0                   NaN              NaN                     NaN                           NaN                   NaN                  NaN         FRESH
+     M49            1           30.5                   89.0     240.0              0.0      GREEN VERY FIRM                             0                   NaN              NaN                     NaN                           NaN                   NaN                  NaN         FRESH
+     M51            1           30.5                   89.0     290.0              0.0      GREEN VERY FIRM                             0                   NaN              NaN                     NaN                           NaN                   NaN                  NaN         FRESH
+
+=================================================================

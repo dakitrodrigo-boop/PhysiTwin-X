@@ -1,0 +1,38 @@
+=================================================================
+PHYSITWIN-X STEP 8 SHAP EXPLAINABILITY REPORT
+=================================================================
+
+MODEL: XGBOOST REGRESSION
+SHAP version: 0.54.1
+Testing observations: 143
+Testing mangoes: 12
+Original predictors: 14
+Transformed features: 103
+
+TOP 10 GLOBAL SHAP FEATURES
+numeric__storage_day: 2.299506
+categorical__firmness_MUSHY: 0.772351
+categorical__peel_color_GOLDEN YELLOW WITH BROWN SPOT: 0.632884
+categorical__peel_color_YELLOW-ORANGE WITH BROWN SPOT: 0.502348
+categorical__peel_color_YELLOW WITH BROWN SPOT: 0.479075
+categorical__peel_color_YELLOW ORANGE: 0.462288
+categorical__peel_color_YELLOW ORANGE WITH FORMING FULL BROWN SPOT: 0.460379
+categorical__peel_color_LIGHT GREEN: 0.392252
+categorical__firmness_VERY FIRM: 0.336261
+categorical__firmness_MODERATELY FIRM: 0.259705
+
+OUTPUT FILES
+C:\Users\USER\OneDrive\PhysiTwin-X\results\step8_shap_global_importance.csv
+C:\Users\USER\OneDrive\PhysiTwin-X\results\step8_shap_values.csv
+C:\Users\USER\OneDrive\PhysiTwin-X\results\step8_individual_explanations.csv
+C:\Users\USER\OneDrive\PhysiTwin-X\results\figures\step8_shap_summary.png
+C:\Users\USER\OneDrive\PhysiTwin-X\results\figures\step8_shap_bar.png
+C:\Users\USER\OneDrive\PhysiTwin-X\results\figures\step8_individual_waterfall.png
+
+INTERPRETATION NOTE
+Positive SHAP values increase the raw model prediction.
+Negative SHAP values decrease the raw model prediction.
+SHAP values explain model output, not causal effects.
+The explanation is in the model's raw prediction scale.
+
+STEP 8 STATUS: COMPLETED

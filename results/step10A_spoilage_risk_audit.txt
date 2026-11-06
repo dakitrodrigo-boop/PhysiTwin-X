@@ -1,0 +1,56 @@
+PHYSITWIN-X STEP 10A: SPOILAGE-RISK AUDIT
+=================================================================
+
+Total observations: 745
+Unique mangoes: 60
+Storage days: 1 to 14
+
+VALIDATION RESULTS
+PASS: Source file loaded
+PASS: Mango IDs are not missing
+PASS: Storage days are not missing
+PASS: Spoilage-risk labels are not missing
+PASS: No duplicate mango-day records
+PASS: Exactly 60 unique mangoes
+PASS: All five expected risk classes are present
+PASS: No mango appears in both train and test sets
+PASS: All source mangoes are assigned to train or test
+PASS: No unknown mango IDs in train/test files
+
+Passed: 10
+Failed: 0
+
+RISK CLASS DISTRIBUTION
+ spoilage_risk  observations  percentage
+         FRESH           265    35.57047
+     HIGH RISK           185   24.832215
+      LOW RISK           124   16.644295
+ MODERATE RISK           112   15.033557
+VERY HIGH RISK            59    7.919463
+
+EXISTING GROUPED SPLIT
+Training mangoes: 48
+Testing mangoes: 12
+Overlapping mangoes: 0
+
+
+RISK LABELS BY STORAGE DAY
+spoilage_risk  FRESH  HIGH RISK  LOW RISK  MODERATE RISK  VERY HIGH RISK
+storage_day                                                             
+1                 60          0         0              0               0
+2                 60          0         0              0               0
+3                 60          0         0              0               0
+4                 59          0         1              0               0
+5                 12          0        41              6               0
+6                  7          0        46              7               0
+7                  2          6        23             28               0
+8                  2          9         7             40               2
+9                  2         27         0             29               0
+10                 1         50         2              0               5
+11                 0         36         3              1              11
+12                 0         31         1              1               7
+13                 0         26         0              0               8
+14                 0          0         0              0              26
+
+IMPORTANT NOTE
+This step audits recorded risk labels. It does not train or validate a spoilage-risk prediction model.

@@ -1,0 +1,61 @@
+=================================================================
+PHYSITWIN-X STEP 9E FINAL VALIDATION REPORT
+=================================================================
+Total validation checks: 37
+Passed: 37
+Failed: 0
+
+VALIDATION DETAILS
+PASS: Source contains 745 observations
+PASS: Dynamic dataset contains 745 observations
+PASS: Both datasets contain 60 mangoes
+PASS: No duplicate source mango-day records
+PASS: No duplicate dynamic mango-day records
+PASS: All source records exist in dynamic dataset
+PASS: Original temperature_c preserved
+PASS: Original relative_humidity_pct preserved
+PASS: Original weight_g preserved
+PASS: Original weight_loss_pct preserved
+PASS: Original peel_color preserved
+PASS: Original firmness preserved
+PASS: Original ripeness_stage preserved
+PASS: First observations have zero elapsed interval
+PASS: Elapsed intervals match observed day differences
+PASS: temperature_change_c calculation is correct
+PASS: humidity_change_pct calculation is correct
+PASS: weight_change_g calculation is correct
+PASS: weight_loss_change_pct calculation is correct
+PASS: firmness_state_change calculation is correct
+PASS: ripeness_state_change calculation is correct
+PASS: weight_change_g_per_day calculation is correct
+PASS: weight_loss_change_pct_per_day calculation is correct
+PASS: temperature_change_c_per_day calculation is correct
+PASS: humidity_change_pct_per_day calculation is correct
+PASS: firmness_state_change_per_day calculation is correct
+PASS: ripeness_state_change_per_day calculation is correct
+PASS: Firmness scores stay between 0 and 7
+PASS: Ripeness scores stay between 0 and 6
+PASS: Daily mangoes_observed matches recomputation
+PASS: Daily observations matches recomputation
+PASS: Daily mean_firmness_state matches recomputation
+PASS: Daily mean_ripeness_state matches recomputation
+PASS: Daily mean_weight_loss_pct matches recomputation
+PASS: Daily mean_weight_g matches recomputation
+PASS: Daily mean_temperature_c matches recomputation
+PASS: Daily mean_humidity_pct matches recomputation
+
+OBSERVATION GAP ANALYSIS
+Within-mango gaps greater than one day: 3
+Maximum observed interval: 2.0 days
+
+IMPORTANT INTERPRETATION
+Observation gaps are reported for transparency.
+They are not automatically treated as errors.
+State changes are calculated between consecutive
+available observations for each individual mango.
+
+OUTPUT FILE
+C:\Users\USER\OneDrive\PhysiTwin-X\results\step9E_observation_gaps.csv
+
+FINAL VALIDATION: PASSED
+=================================================================

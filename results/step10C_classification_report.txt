@@ -1,0 +1,65 @@
+
+=================================================================
+PHYSITWIN-X STEP 10C RESULTS
+=================================================================
+
+FULL-FEATURE XGBOOST PERFORMANCE
+Accuracy: 0.9860
+Balanced accuracy: 0.9859
+Macro precision: 0.9750
+Macro recall: 0.9859
+Macro F1-score: 0.9798
+Weighted F1-score: 0.9861
+
+STORAGE-DAY-ONLY BASELINE
+Accuracy: 0.8322
+Balanced accuracy: 0.7543
+Macro F1-score: 0.7526
+
+PER-CLASS CLASSIFICATION REPORT
+                precision    recall  f1-score   support
+
+         FRESH       1.00      1.00      1.00        52
+      LOW RISK       1.00      0.96      0.98        26
+ MODERATE RISK       0.96      1.00      0.98        23
+     HIGH RISK       1.00      0.97      0.98        31
+VERY HIGH RISK       0.92      1.00      0.96        11
+
+      accuracy                           0.99       143
+     macro avg       0.97      0.99      0.98       143
+  weighted avg       0.99      0.99      0.99       143
+
+
+TOP 10 FEATURES
+                                       feature  importance
+                   categorical__firmness_MUSHY    0.186926
+               categorical__firmness_VERY SOFT    0.150899
+categorical__peel_color_YELLOW WITH BROWN SPOT    0.112164
+           categorical__firmness_SLIGHTLY FIRM    0.108470
+                    categorical__firmness_SOFT    0.091721
+             categorical__firmness_MEDIUM FIRM    0.056723
+                          numeric__storage_day    0.054977
+         numeric__days_since_first_observation    0.042488
+           categorical__peel_color_LIGHT GREEN    0.035964
+                    categorical__firmness_FIRM    0.030985
+
+CONFUSION MATRIX
+[[52  0  0  0  0]
+ [ 0 25  1  0  0]
+ [ 0  0 23  0  0]
+ [ 0  0  0 30  1]
+ [ 0  0  0  0 11]]
+
+OUTPUT FILES
+C:\Users\USER\OneDrive\PhysiTwin-X\results\physitwin_x_spoilage_risk_model.joblib
+C:\Users\USER\OneDrive\PhysiTwin-X\results\step10C_risk_predictions.csv
+C:\Users\USER\OneDrive\PhysiTwin-X\results\step10C_baseline_predictions.csv
+C:\Users\USER\OneDrive\PhysiTwin-X\results\step10C_model_performance.csv
+C:\Users\USER\OneDrive\PhysiTwin-X\results\step10C_per_class_metrics.csv
+C:\Users\USER\OneDrive\PhysiTwin-X\results\step10C_feature_importance.csv
+C:\Users\USER\OneDrive\PhysiTwin-X\results\figures\step10C_confusion_matrix.png
+
+IMPORTANT RESEARCH LIMITATIONS
+This model classifies recorded spoilage-risk labels. It does not independently establish future spoilage.
+The test set contains observations from only 12 mangoes. Further grouped cross-validation and external validation are needed before claiming general performance.
+The model's feature importance indicates predictive use, not causal influence.

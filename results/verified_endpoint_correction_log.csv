@@ -1,0 +1,8 @@
+mango_id,storage_day,previous_ripeness_stage,corrected_ripeness_stage,verification_source
+M10,13,SPOILED,OVERRIPE,Original observation record supplied by user
+M10,14,SPOILED,SPOILED,Original observation record supplied by user
+M43,10,SPOILED,OVERRIPE,Original observation record supplied by user
+M43,11,OVERRIPE,OVERRIPE,Original observation record supplied by user
+M43,12,SPOILED,SPOILED,Original observation record supplied by user
+M60,7,SPOILED,OVERRIPE,Original observation record supplied by user
+M60,8,SPOILED,SPOILED,Original observation record supplied by user

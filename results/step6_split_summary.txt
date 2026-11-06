@@ -1,0 +1,48 @@
+=================================================================
+PHYSITWIN-X STEP 6 SUMMARY REPORT
+=================================================================
+
+SOURCE DATASET
+Total observations: 745
+Total mangoes: 60
+Observation period: Day 1 to Day 14
+
+MACHINE LEARNING VARIABLES
+Number of predictors: 14
+Target variable: remaining_shelf_life_days
+Grouping variable: mango_id
+
+TRAINING DATASET
+Observations: 602
+Mangoes: 48
+
+TESTING DATASET
+Observations: 143
+Mangoes: 12
+
+GROUP SEPARATION VALIDATION
+Shared mango IDs: 0
+Data leakage check: PASSED
+
+MISSING PREDICTOR VALUES
+storage_day: 0
+temperature_c: 0
+relative_humidity_pct: 0
+weight_g: 0
+weight_loss_pct: 0
+peel_color: 0
+firmness: 0
+days_since_first_observation: 0
+observation_gap_days: 60
+weight_change_g: 60
+weight_loss_change_pct: 60
+weight_loss_rate_pct_per_day: 60
+temperature_change_c: 60
+humidity_change_pct: 60
+
+OUTPUT FILES
+C:\Users\USER\OneDrive\PhysiTwin-X\data\physitwin_x_train.csv
+C:\Users\USER\OneDrive\PhysiTwin-X\data\physitwin_x_test.csv
+C:\Users\USER\OneDrive\PhysiTwin-X\results\step6_feature_audit.csv
+
+STEP 6 STATUS: COMPLETED SUCCESSFULLY

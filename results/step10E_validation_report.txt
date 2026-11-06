@@ -1,0 +1,39 @@
+PHYSITWIN-X STEP 10E
+MANGO-LEVEL GROUP CROSS-VALIDATION
+=================================================================
+
+Training observations: 602
+Training mangoes: 48
+Number of folds: 5
+Grouping variable: mango_id
+
+FOLD METRICS
+                    model  fold  training_mangoes  validation_mangoes  training_observations  validation_observations  accuracy  balanced_accuracy  macro_precision  macro_recall  macro_f1  weighted_f1
+             FULL_FEATURE     1                38                  10                    475                      127  0.960630           0.946667         0.959831      0.946667  0.952131     0.959930
+             FULL_FEATURE     2                39                   9                    486                      116  0.939655           0.917582         0.933880      0.917582  0.924013     0.940143
+             FULL_FEATURE     3                38                  10                    485                      117  0.931624           0.929883         0.913444      0.929883  0.920932     0.932139
+             FULL_FEATURE     4                38                  10                    476                      126  0.944444           0.928321         0.943821      0.928321  0.933485     0.942373
+             FULL_FEATURE     5                39                   9                    486                      116  0.956897           0.929474         0.949794      0.929474  0.937728     0.956369
+WITHOUT_FIRMNESS_AND_PEEL     1                38                  10                    475                      127  0.716535           0.652940         0.674204      0.652940  0.655682     0.727046
+WITHOUT_FIRMNESS_AND_PEEL     2                39                   9                    486                      116  0.758621           0.703922         0.752048      0.703922  0.715188     0.759355
+WITHOUT_FIRMNESS_AND_PEEL     3                38                  10                    485                      117  0.717949           0.671290         0.682029      0.671290  0.673723     0.721867
+WITHOUT_FIRMNESS_AND_PEEL     4                38                  10                    476                      126  0.769841           0.732916         0.713571      0.732916  0.718320     0.771960
+WITHOUT_FIRMNESS_AND_PEEL     5                39                   9                    486                      116  0.732759           0.689475         0.691417      0.689475  0.681430     0.741428
+         STORAGE_DAY_ONLY     1                38                  10                    475                      127  0.779528           0.728685         0.786250      0.728685  0.733281     0.785087
+         STORAGE_DAY_ONLY     2                39                   9                    486                      116  0.793103           0.740719         0.810528      0.740719  0.754988     0.801836
+         STORAGE_DAY_ONLY     3                38                  10                    485                      117  0.666667           0.596162         0.604655      0.596162  0.593735     0.674587
+         STORAGE_DAY_ONLY     4                38                  10                    476                      126  0.801587           0.744445         0.815948      0.744445  0.757430     0.806076
+         STORAGE_DAY_ONLY     5                39                   9                    486                      116  0.750000           0.728581         0.695411      0.728581  0.694653     0.755305
+
+MEAN AND STANDARD DEVIATION
+                    model  accuracy_mean  accuracy_std  balanced_accuracy_mean  balanced_accuracy_std  macro_precision_mean  macro_precision_std  macro_recall_mean  macro_recall_std  macro_f1_mean  macro_f1_std  weighted_f1_mean  weighted_f1_std
+             FULL_FEATURE       0.946650      0.012042                0.930385               0.010421              0.940154             0.017652           0.930385          0.010421       0.933658      0.012377          0.946191         0.011629
+         STORAGE_DAY_ONLY       0.758177      0.054775                0.707718               0.062765              0.742558             0.091043           0.707718          0.062765       0.706817      0.068040          0.764578         0.054119
+WITHOUT_FIRMNESS_AND_PEEL       0.739141      0.024098                0.690109               0.030657              0.702654             0.031305           0.690109          0.030657       0.688868      0.027139          0.744331         0.021219
+
+INTERPRETATION NOTES
+Cross-validation was conducted using training mangoes only.
+All observations from one mango were assigned to one fold.
+The original 12-mango test set was not used in this step.
+Mean and standard deviation describe performance across the five validation folds.
+These results do not establish external generalization or independent future-spoilage prediction.

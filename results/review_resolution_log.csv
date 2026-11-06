@@ -1,0 +1,2 @@
+mango_id,storage_day,verified_firmness,verified_ripeness_stage,firmness_review_required,data_review_required,resolution,reason
+M01,10,MUSHY,SPOILED,False,False,RESOLVED,Original observation sheet verified the separate firmness and ripeness entries.

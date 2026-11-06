@@ -1,0 +1,31 @@
+variable,role,data_type,missing_values,missing_percentage,unique_values,reason
+mango_id,Group identifier,str,0,0.0,60,Used only for mango-level data splitting
+temperature_c,Predictor,float64,0,0.0,8,Approved current or historical measurement
+relative_humidity_pct,Predictor,float64,0,0.0,11,Approved current or historical measurement
+weight_g,Predictor,float64,0,0.0,55,Approved current or historical measurement
+weight_loss_pct,Predictor,float64,0,0.0,3,Approved current or historical measurement
+peel_color,Predictor,str,0,0.0,91,Approved current or historical measurement
+firmness,Predictor,str,0,0.0,8,Approved current or historical measurement
+ripeness_stage,Excluded,str,0,0.0,7,Excluded to prevent spoilage-label leakage
+storage_day,Predictor,int64,0,0.0,14,Approved current or historical measurement
+spoilage_risk,Excluded,str,0,0.0,5,Spoilage classification label; not a predictor
+peel_color_original,Excluded,str,0,0.0,94,Not included in the approved predictor list
+firmness_original,Excluded,str,0,0.0,10,Not included in the approved predictor list
+firmness_review_required,Excluded,bool,0,0.0,1,Not included in the approved predictor list
+peel_color_review_required,Excluded,bool,0,0.0,1,Not included in the approved predictor list
+previous_storage_day,Excluded,float64,60,8.05,13,Not included in the approved predictor list
+previous_weight_g,Excluded,float64,60,8.05,53,Not included in the approved predictor list
+previous_weight_loss_pct,Excluded,float64,60,8.05,3,Not included in the approved predictor list
+previous_temperature_c,Excluded,float64,60,8.05,8,Not included in the approved predictor list
+previous_humidity_pct,Excluded,float64,60,8.05,11,Not included in the approved predictor list
+days_since_first_observation,Predictor,int64,0,0.0,14,Approved current or historical measurement
+observation_gap_days,Predictor,float64,60,8.05,2,Approved current or historical measurement
+weight_change_g,Predictor,float64,60,8.05,11,Approved current or historical measurement
+weight_loss_change_pct,Predictor,float64,60,8.05,7,Approved current or historical measurement
+weight_loss_rate_pct_per_day,Predictor,float64,60,8.05,9,Approved current or historical measurement
+temperature_change_c,Predictor,float64,60,8.05,14,Approved current or historical measurement
+humidity_change_pct,Predictor,float64,60,8.05,14,Approved current or historical measurement
+data_review_required,Excluded,bool,0,0.0,1,Not included in the approved predictor list
+review_resolution_note,Excluded,str,744,99.87,1,Not included in the approved predictor list
+endpoint_day,Excluded,int64,0,0.0,6,Future endpoint information; target leakage
+remaining_shelf_life_days,Target,int64,0,0.0,14,Remaining shelf-life prediction target

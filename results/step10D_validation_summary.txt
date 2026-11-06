@@ -1,0 +1,25 @@
+PHYSITWIN-X STEP 10D
+SPOILAGE-RISK MODEL VALIDATION
+============================================================
+
+DATASET
+Training observations: 602
+Testing observations: 143
+Training mangoes: 48
+Testing mangoes: 12
+
+MODEL COMPARISON
+                    model  predictor_count  accuracy  balanced_accuracy  macro_precision  macro_recall  macro_f1  weighted_f1
+             FULL_FEATURE               14  0.986014           0.985856         0.975000      0.985856  0.979849     0.986115
+WITHOUT_FIRMNESS_AND_PEEL               12  0.776224           0.713595         0.720128      0.713595  0.716128     0.775942
+         STORAGE_DAY_ONLY                1  0.832168           0.754297         0.849610      0.754297  0.752585     0.824436
+
+ACCURACY DIFFERENCES
+Full model minus reduced model: 0.2098
+Full model minus day-only baseline: 0.1538
+
+INTERPRETATION NOTES
+The reduced model excludes firmness and peel color.
+A performance decrease may indicate that these variables are strongly associated with the recorded risk labels.
+The comparison does not by itself establish causation or independent future-spoilage prediction.
+The test set contains only 12 mangoes; further mango-level cross-validation and external validation are recommended.

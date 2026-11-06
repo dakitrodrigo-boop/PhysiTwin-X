@@ -1,0 +1,50 @@
+
+PHYSITWIN-X
+STEP 7: XGBOOST SHELF-LIFE PREDICTION
+
+MODEL:
+XGBoost Regression
+
+TARGET:
+remaining_shelf_life_days
+
+TRAINING OBSERVATIONS:
+602
+
+TESTING OBSERVATIONS:
+143
+
+TRAINING MANGOES:
+48
+
+TESTING MANGOES:
+12
+
+MANGO-ID OVERLAP:
+0
+
+PREDICTION FEATURES:
+['storage_day', 'temperature_c', 'relative_humidity_pct', 'weight_g', 'weight_loss_pct', 'peel_color', 'firmness', 'days_since_first_observation', 'observation_gap_days', 'weight_change_g', 'weight_loss_change_pct', 'weight_loss_rate_pct_per_day', 'temperature_change_c', 'humidity_change_pct']
+
+XGBOOST PERFORMANCE:
+MAE: 1.1655 days
+RMSE: 1.3896 days
+R2: 0.8525
+
+MEDIAN BASELINE PERFORMANCE:
+MAE: 3.1119 days
+RMSE: 3.6422 days
+R2: -0.0130
+
+NEGATIVE RAW PREDICTIONS:
+6
+
+NOTE:
+The raw predictions are used for performance evaluation.
+Nonnegative estimates are also saved for operational review.
+
+The model was evaluated on held-out mango IDs.
+Results are preliminary and based on 60 mangoes.
+
+This step trains a shelf-life regression model.
+It does not yet constitute the complete digital twin.
